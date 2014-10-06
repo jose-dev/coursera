@@ -44,3 +44,61 @@ for (i in 1:5000) {
 # View the result. If you want, you can increase the bin width to show more detail by changing the 'breaks' argument.
 hist(sample_means50, breaks = 13)
 
+
+
+
+# Initialize the sample distributions:
+sample_means10 = rep(NA, 5000)
+sample_means100 = rep(NA, 5000)
+
+# Run the for loop:
+for (i in 1:5000) {
+    samp = sample(area, 10)
+    sample_means10[i] = mean(samp)
+    samp = sample(area, 100)
+    sample_means100[i] = mean(samp)
+}
+
+# Take a look at the results:
+head(sample_means10)
+head(sample_means50) # was already loaded
+head(sample_means100)
+
+
+
+# Define the limits for the x-axis:
+xlimits = range(sample_means10)
+
+# Draw the histograms:
+par(mfrow = c(3, 1))
+hist(sample_means10, breaks = 20, xlim = xlimits)
+hist(sample_means50, breaks = 20, xlim = xlimits)
+hist(sample_means100, breaks = 20, xlim = xlimits)
+
+
+
+# Take a sample of size 50 from 'price':
+sample_50 = sample(price, 50)
+
+# Print the mean:
+mean(sample_50)
+
+
+## large sample of price means
+sample_means50 = rep(NA, 5000)
+for (i in 1:5000) {
+
+    sample_means50[i] = mean(sample(price, 50)) 
+}
+head(sample_means50)
+
+
+## large sample of price means but with samples of size 150
+sample_means150 = rep(NA, 5000)
+for (i in 1:5000) {
+
+    sample_means150[i] = mean(sample(price, 150)) 
+}
+head(sample_means150)
+
+
