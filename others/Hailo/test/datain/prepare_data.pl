@@ -44,7 +44,9 @@ my @a_header =
         week
         week_year
         month
+        quarter
         rain_code
+        temp_code
     );
 my $header = 1;
 while(<>) {
@@ -64,6 +66,7 @@ while(<>) {
             my $w  = $o_dt->week();
             my $wy = $o_dt->week_year();
             my $mm = $o_dt->month();
+            my $q  = $o_dt->quarter();
             
             ## number of jobs
             my $no_jobs = $a_line[1];
@@ -77,7 +80,14 @@ while(<>) {
             
             # temperature
             my $T = $a_line[3];
-            
+            my $tc = 'Mild';
+            if ( $T > 20 ) {
+                $tc = 'Warm';
+            }
+            elsif ( $T < 5 ) {
+                $tc = 'Cold';
+            }
+             
             @a_line2print =
                 (
                     $o_dt->ymd,
@@ -88,7 +98,9 @@ while(<>) {
                     $w ,
                     $wy,
                     $mm,
-                    $rain_code
+                    $q,
+                    $rain_code,
+                    $tc
                 );
 
         }
