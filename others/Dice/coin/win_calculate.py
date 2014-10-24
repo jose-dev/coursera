@@ -5,14 +5,7 @@
     
 """
 
-
-
-from random import randrange
 import math
-import numpy as np
-
-
-
 
 for n in range(10):
     i    = n + 1
