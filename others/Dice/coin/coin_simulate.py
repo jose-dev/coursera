@@ -1,11 +1,24 @@
-#
-# http://docs.scipy.org/doc/numpy/reference/routines.statistics.html
-#
+"""
+    
+    http://docs.scipy.org/doc/numpy/reference/routines.statistics.html
+    
+    
+    percentile (when NUMBER_GAMES = 100000):
+    - at 95% = 8.0
+    - at 99% = 32.0
+    
+    
+    
+"""
+
+
 
 from random import randrange
 import math
 import numpy as np
 
+NUMBER_GAMES = 100000
+NUMBER_EXP   = 20
 
 def toss_coin():
     return randrange(2)
@@ -27,13 +40,14 @@ def play_game():
             
 
 
-for j in range(20):
+for j in range(NUMBER_EXP):
     wins = []
-    for i in range(100000):
+    for i in range(NUMBER_GAMES):
         wins.append(play_game())
+    N      = np.mean(wins)
     mean   = np.mean(wins)
     median = np.median(wins)
     std    = np.std(wins)
-    perc   = np.percentile(wins, 95)
-    print "mean: {}, median: {}, std: {}, percentile: {}".format(str(mean), str(median), str(std), str(perc))
+    perc   = np.percentile(wins, 99)
+    print "games: {}, mean: {}, median: {}, std: {}, percentile: {}".format(str(N), str(mean), str(median), str(std), str(perc))
     
