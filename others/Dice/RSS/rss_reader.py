@@ -17,6 +17,7 @@
 #   - compare agents overall and over time 
 #
 
+import json
 import re
 import feedparser
 from datetime import datetime
@@ -27,16 +28,23 @@ agencies = ['redlet']
 #agencies = ['choices']
 
 
+
+def jdefault(o):
+    return o.__dict__
+
+
 def extract_date(title):
     p = re.compile("(\d+/\d+/\d+)")
     m = p.search(title) 
     dt = datetime.strptime(m.group(1), "%d/%m/%Y")
     return datetime.strftime(dt, "%Y-%m-%d")
 
+
 def extract_rating(title):
     p = re.compile("(\d) star")
     m = p.search(title) 
     return m.group(1)
+
 
 def extract_reviewer(title):
     p = re.compile("\d+/\d+/\d+ - (.+) rated")
@@ -47,8 +55,10 @@ def extract_reviewer(title):
 for agent in agencies:
     url = BASEURL.format(agency=agent)
     d = feedparser.parse(url)
-    #print d
+    print(json.dumps(d, default=jdefault, indent=2))
+    #print json.dumps(d, indent=2)
     #print len(d['entries'])
+    print "------------------------------------------------------------------------------"
     
     ## ## the whole record
     ## for post in d.entries:
@@ -67,13 +77,13 @@ for agent in agencies:
     ##     print post.summary
     ##     print "------------------------------------------------------------------------------"
     
-    ## to get the date and rating
-    for post in d.entries:
-        title    = post.title
-        summary  = post.summary
-        rating   = extract_rating(title)
-        reviewer = extract_reviewer(title)
-        dt       = extract_date(title)
-        print "|".join([str(val) for val in [agent, dt, rating, reviewer, summary]])
-        #print "------------------------------------------------------------------------------"
+    ## ## to get the date and rating
+    ## for post in d.entries:
+    ##     title    = post.title
+    ##     summary  = post.summary
+    ##     rating   = extract_rating(title)
+    ##     reviewer = extract_reviewer(title)
+    ##     dt       = extract_date(title)
+    ##     print "|".join([str(val) for val in [agent, dt, rating, reviewer, summary]])
+    ##     #print "------------------------------------------------------------------------------"
 
