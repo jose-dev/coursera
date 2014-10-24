@@ -51,7 +51,6 @@ hist(mydata$rating, xlab="ratings", ylab="Number of Reviews", breaks=20, col="re
 
 
 
-
 #################################################################
 #################################################################
 #################################################################
@@ -63,6 +62,19 @@ hist(mydata$rating, xlab="ratings", ylab="Number of Reviews", breaks=20, col="re
 
 par(mfrow=c(1,1))
 barplot(table(mydata$rating, mydata$yyyymm), xlab="year-month", ylab="ratings", col=c("red", "orange", "yellow", "cyan", "green"), main="Rating Distribution By Year-Month")
+
+
+
+#################################################################
+#################################################################
+#################################################################
+
+##
+## reviews per agent
+##
+
+par(mfrow=c(1,1))
+barplot(table(mydata$rating, mydata$agent), xlab="agent", ylab="ratings", col=c("red", "orange", "yellow", "cyan", "green"), main="Rating Distribution By Agent")
 
 
 
