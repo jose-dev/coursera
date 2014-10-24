@@ -34,10 +34,6 @@ class node():
 
     def add_child(self, obj):
         self.children.append(obj)
-        
-    def __str__(self):
-        from pprint import pprint
-        return str((vars(self)))
     
 
 def jdefault(o):
