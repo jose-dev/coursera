@@ -1,5 +1,6 @@
 #
 # https://www.datacamp.com/courses/data-analysis-and-statistical-inference_mine-cetinkaya-rundel-by-datacamp/lab-3a-foundations-for-inference-sampling-distributions?ex=1
+# https://www.datacamp.com/courses/data-analysis-and-statistical-inference_mine-cetinkaya-rundel-by-datacamp/lab-3b-foundations-for-inference-confidence-intervals?ex=1
 #
 
 # Load the 'ames' data frame:
@@ -100,5 +101,21 @@ for (i in 1:5000) {
     sample_means150[i] = mean(sample(price, 150)) 
 }
 head(sample_means150)
+
+
+
+#########################################################################################
+
+# Take a sample of size 60 of the population:
+population = ames$Gr.Liv.Area
+samp = sample(population, 60)
+
+# Calculate the mean:
+sample_mean = mean(samp)
+
+# Draw a histogram:
+hist(samp)
+
+
 
 
