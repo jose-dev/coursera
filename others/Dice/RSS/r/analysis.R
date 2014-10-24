@@ -61,13 +61,6 @@ hist(mydata$rating, xlab="ratings", ylab="Number of Reviews", breaks=20, col="re
 ## distribution of rating over time
 ##
 
-table(choices$rating, choices$yyyymm)
-table(bradley$rating, bradley$yyyymm)
-table(manning$rating, manning$yyyymm)
-table(reeds$rating,   reeds$yyyymm)
-
-
-
 par(mfrow=c(1,1))
 barplot(table(mydata$rating, mydata$yyyymm), xlab="year-month", ylab="ratings", col=c("red", "orange", "yellow", "cyan", "green"), main="Rating Distribution By Year-Month")
 
