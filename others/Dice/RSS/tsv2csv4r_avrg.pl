@@ -1,10 +1,12 @@
 #!/usr/bin/perl
 
-=head1 NAME
-
 =head1 DESCRIPTION
 
+    Extracts and formats data for R.
+
 =head1 USAGE
+
+    cat in.tsv | perl tsv2csv4r_avrg.pl > out.csv
 
 =cut
 
@@ -12,16 +14,8 @@
 use strict;
 use warnings;
 
-
-use Data::Dumper;
 use Text::CSV;
 use List::Util qw( sum );
-
-
-
-#######################################################################
-#######################################################################
-#######################################################################
 
 
 ## collect data
@@ -39,9 +33,7 @@ while (<>) {
     }
 }
 
-
-
-## calculate average rating and print
+## calculate average rating and print it out
 {
     my $o_csv = Text::CSV->new( { binary => 1 } ) || die "Cannot use CSV: " . Text::CSV->error_diag();
  

@@ -1,10 +1,12 @@
 #!/usr/bin/perl
 
-=head1 NAME
-
 =head1 DESCRIPTION
 
+    Extracts and formats data for wordle.
+
 =head1 USAGE
+
+    cat in.tsv | perl tsv2txt_goodRatings.pl > out.csv
 
 =cut
 
@@ -13,14 +15,7 @@ use strict;
 use warnings;
 
 
-use Data::Dumper;
-
-
 my @TO_REMOVE = qw( property person use );
-
-#######################################################################
-#######################################################################
-#######################################################################
 
 
 ## collect data
