@@ -12,5 +12,5 @@ for n in range(10):
     win  = math.pow(2, n)
     prob = 1 / math.pow(2, i)
     exp  = win * prob
-    print "heads: {}, win: {}, probability: {}, expected win: {}".format(str(n), str(win), str(prob), str(exp))
+    print "number of heads: {}, money won: {}, probability: {}, expected average gain: {}".format(str(n), str(win), str(prob), str(exp))
     
