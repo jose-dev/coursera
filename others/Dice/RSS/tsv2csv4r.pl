@@ -30,10 +30,10 @@ while (<>) {
     my @a_line = split(/\t/,$_);
     my @a_fields = map{ $a_line[$_] } 0 .. 2;
     if ( $a_fields[1] =~ /^(\d+)-(\d+)/ ) {
-        push @a_fields, join("-", $1, $2);
+        push @a_fields, $1, join("-", $1, $2);
     }
     else {
-        push @a_fields, 'yyyymm';
+        push @a_fields, 'yyyy', 'yyyymm';
     }
     
     

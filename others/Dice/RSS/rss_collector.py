@@ -27,7 +27,6 @@ BASEURL = 'http://www.allagents.co.uk/rss/{agency}/'
 agencies = ['choices',
             'manning-stainton',
             'reeds-rains',
-            'big-move-estate-agents',
             'bradleys-estate-agents']
 
 
