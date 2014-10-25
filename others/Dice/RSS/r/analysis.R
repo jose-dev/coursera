@@ -42,7 +42,7 @@ barplot(table(mydata$rating), xlab="Rating Score", ylab="Number of Reviews", col
 ## reviews per agent
 ##
 
-barplot(table(mydata$rating, mydata$agent_name), xlab="Agent", ylab="Number Of Reviews", col=c("red", "orange", "yellow", "cyan", "green"), main="Rating Distribution By Agent")
+barplot(table(mydata$rating, mydata$agent_name), xlab="Agent", ylab="Number Of Reviews", col=c("red", "orange", "yellow", "cyan", "green"), main="Rating Scores By Agent")
 
 
 
@@ -58,14 +58,14 @@ par(mfrow=c(1,2))
 ## distribution of rating over time
 ##
 
-barplot(table(mydata$rating, mydata$yyyy), xlab="year", ylab="ratings", col=c("red", "orange", "yellow", "cyan", "green"), main="Distribution Of Ratings by Year")
+barplot(table(mydata$rating, mydata$yyyy), xlab="year", ylab="Number of Reviews", col=c("red", "orange", "yellow", "cyan", "green"), main="Rating Scores per Year")
 
 
 ##
 ## distribution of monthly average rating per year (from 2012)
 ##
 
-boxplot(avg_rating~yyyy, data=mydata_avg, col="grey", xlab="Year", ylab="Monthly Average Rating", main="Monthly Average Ratings by Year" )
+boxplot(avg_rating~yyyy, data=mydata_avg, col="grey", xlab="Year", ylab="Monthly Average Rating", main="Monthly Average Ratings per Year" )
 
 
 
