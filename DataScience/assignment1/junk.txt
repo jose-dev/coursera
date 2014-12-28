@@ -1,0 +1,2044 @@
+$VAR1 = {
+          'country' => 'United States',
+          'place_type' => 'city',
+          'country_code' => 'US',
+          'name' => 'Cleveland',
+          'full_name' => 'Cleveland, OH',
+          'url' => 'http://api.twitter.com/1/geo/id/0eb9676d24b211f1.json',
+          'id' => '0eb9676d24b211f1',
+          'attributes' => {},
+          'bounding_box' => {
+                              'coordinates' => [
+                                                 [
+                                                   [
+                                                     '-81.878976',
+                                                     '41.392692'
+                                                   ],
+                                                   [
+                                                     '-81.878976',
+                                                     '41.604436'
+                                                   ],
+                                                   [
+                                                     '-81.532744',
+                                                     '41.604436'
+                                                   ],
+                                                   [
+                                                     '-81.532744',
+                                                     '41.392692'
+                                                   ]
+                                                 ]
+                                               ],
+                              'type' => 'Polygon'
+                            }
+        };
+
+$VAR1 = {
+          'country' => 'United States',
+          'place_type' => 'city',
+          'country_code' => 'US',
+          'name' => 'Lee',
+          'full_name' => 'Lee, IA',
+          'url' => 'http://api.twitter.com/1/geo/id/f64e09d9ff3badad.json',
+          'id' => 'f64e09d9ff3badad',
+          'attributes' => {},
+          'bounding_box' => {
+                              'coordinates' => [
+                                                 [
+                                                   [
+                                                     '-93.618616',
+                                                     '41.546889'
+                                                   ],
+                                                   [
+                                                     '-93.618616',
+                                                     '41.636983'
+                                                   ],
+                                                   [
+                                                     '-93.529432',
+                                                     '41.636983'
+                                                   ],
+                                                   [
+                                                     '-93.529432',
+                                                     '41.546889'
+                                                   ]
+                                                 ]
+                                               ],
+                              'type' => 'Polygon'
+                            }
+        };
+
+$VAR1 = {
+          'country' => 'United States',
+          'place_type' => 'city',
+          'country_code' => 'US',
+          'name' => 'Oskaloosa',
+          'full_name' => 'Oskaloosa, IA',
+          'url' => 'http://api.twitter.com/1/geo/id/1ab231a01bbda86f.json',
+          'id' => '1ab231a01bbda86f',
+          'attributes' => {},
+          'bounding_box' => {
+                              'coordinates' => [
+                                                 [
+                                                   [
+                                                     '-92.679034',
+                                                     '41.260049'
+                                                   ],
+                                                   [
+                                                     '-92.679034',
+                                                     '41.32006'
+                                                   ],
+                                                   [
+                                                     '-92.588408',
+                                                     '41.32006'
+                                                   ],
+                                                   [
+                                                     '-92.588408',
+                                                     '41.260049'
+                                                   ]
+                                                 ]
+                                               ],
+                              'type' => 'Polygon'
+                            }
+        };
+
+$VAR1 = {
+          'country' => 'United States',
+          'place_type' => 'city',
+          'country_code' => 'US',
+          'name' => 'Burbank',
+          'full_name' => 'Burbank, CA',
+          'url' => 'http://api.twitter.com/1/geo/id/b0b79caecef59fb5.json',
+          'id' => 'b0b79caecef59fb5',
+          'attributes' => {},
+          'bounding_box' => {
+                              'coordinates' => [
+                                                 [
+                                                   [
+                                                     '-118.370313',
+                                                     '34.142367'
+                                                   ],
+                                                   [
+                                                     '-118.370313',
+                                                     '34.221654'
+                                                   ],
+                                                   [
+                                                     '-118.280109',
+                                                     '34.221654'
+                                                   ],
+                                                   [
+                                                     '-118.280109',
+                                                     '34.142367'
+                                                   ]
+                                                 ]
+                                               ],
+                              'type' => 'Polygon'
+                            }
+        };
+
+$VAR1 = {
+          'country' => 'United States',
+          'place_type' => 'city',
+          'country_code' => 'US',
+          'name' => 'Chicago',
+          'full_name' => 'Chicago, IL',
+          'url' => 'http://api.twitter.com/1/geo/id/1d9a5370a355ab0c.json',
+          'id' => '1d9a5370a355ab0c',
+          'attributes' => {},
+          'bounding_box' => {
+                              'coordinates' => [
+                                                 [
+                                                   [
+                                                     '-87.940101',
+                                                     '41.643919'
+                                                   ],
+                                                   [
+                                                     '-87.940101',
+                                                     '42.023135'
+                                                   ],
+                                                   [
+                                                     '-87.523661',
+                                                     '42.023135'
+                                                   ],
+                                                   [
+                                                     '-87.523661',
+                                                     '41.643919'
+                                                   ]
+                                                 ]
+                                               ],
+                              'type' => 'Polygon'
+                            }
+        };
+
+$VAR1 = {
+          'country' => 'United States',
+          'place_type' => 'admin',
+          'country_code' => 'US',
+          'name' => 'North Carolina',
+          'full_name' => 'North Carolina, US',
+          'url' => 'http://api.twitter.com/1/geo/id/3b98b02fba3f9753.json',
+          'id' => '3b98b02fba3f9753',
+          'attributes' => {},
+          'bounding_box' => {
+                              'coordinates' => [
+                                                 [
+                                                   [
+                                                     '-84.321869',
+                                                     '33.752878'
+                                                   ],
+                                                   [
+                                                     '-84.321869',
+                                                     '36.588157'
+                                                   ],
+                                                   [
+                                                     '-75.400119',
+                                                     '36.588157'
+                                                   ],
+                                                   [
+                                                     '-75.400119',
+                                                     '33.752878'
+                                                   ]
+                                                 ]
+                                               ],
+                              'type' => 'Polygon'
+                            }
+        };
+
+$VAR1 = {
+          'country' => 'United States',
+          'place_type' => 'admin',
+          'country_code' => 'US',
+          'name' => 'Oklahoma',
+          'full_name' => 'Oklahoma, US',
+          'url' => 'http://api.twitter.com/1/geo/id/bd3d2074a33fbd06.json',
+          'id' => 'bd3d2074a33fbd06',
+          'attributes' => {},
+          'bounding_box' => {
+                              'coordinates' => [
+                                                 [
+                                                   [
+                                                     '-103.002455',
+                                                     '33.615787'
+                                                   ],
+                                                   [
+                                                     '-103.002455',
+                                                     '37.002312'
+                                                   ],
+                                                   [
+                                                     '-94.430662',
+                                                     '37.002312'
+                                                   ],
+                                                   [
+                                                     '-94.430662',
+                                                     '33.615787'
+                                                   ]
+                                                 ]
+                                               ],
+                              'type' => 'Polygon'
+                            }
+        };
+
+$VAR1 = {
+          'country' => 'United States',
+          'place_type' => 'city',
+          'country_code' => 'US',
+          'name' => 'Chicago',
+          'full_name' => 'Chicago, IL',
+          'url' => 'http://api.twitter.com/1/geo/id/1d9a5370a355ab0c.json',
+          'id' => '1d9a5370a355ab0c',
+          'attributes' => {},
+          'bounding_box' => {
+                              'coordinates' => [
+                                                 [
+                                                   [
+                                                     '-87.940101',
+                                                     '41.643919'
+                                                   ],
+                                                   [
+                                                     '-87.940101',
+                                                     '42.023135'
+                                                   ],
+                                                   [
+                                                     '-87.523661',
+                                                     '42.023135'
+                                                   ],
+                                                   [
+                                                     '-87.523661',
+                                                     '41.643919'
+                                                   ]
+                                                 ]
+                                               ],
+                              'type' => 'Polygon'
+                            }
+        };
+
+$VAR1 = {
+          'country' => 'United States',
+          'place_type' => 'city',
+          'country_code' => 'US',
+          'name' => 'Manhattan',
+          'full_name' => 'Manhattan, NY',
+          'url' => 'http://api.twitter.com/1/geo/id/086752cb03de1d5d.json',
+          'id' => '086752cb03de1d5d',
+          'attributes' => {},
+          'bounding_box' => {
+                              'coordinates' => [
+                                                 [
+                                                   [
+                                                     '-74.047285',
+                                                     '40.679548'
+                                                   ],
+                                                   [
+                                                     '-74.047285',
+                                                     '40.882214'
+                                                   ],
+                                                   [
+                                                     '-73.907',
+                                                     '40.882214'
+                                                   ],
+                                                   [
+                                                     '-73.907',
+                                                     '40.679548'
+                                                   ]
+                                                 ]
+                                               ],
+                              'type' => 'Polygon'
+                            }
+        };
+
+$VAR1 = {
+          'country' => 'United States',
+          'place_type' => 'city',
+          'country_code' => 'US',
+          'name' => 'Glendale',
+          'full_name' => 'Glendale, CA',
+          'url' => 'http://api.twitter.com/1/geo/id/509a2c2b2f6206fa.json',
+          'id' => '509a2c2b2f6206fa',
+          'attributes' => {},
+          'bounding_box' => {
+                              'coordinates' => [
+                                                 [
+                                                   [
+                                                     '-118.307849',
+                                                     '34.118761'
+                                                   ],
+                                                   [
+                                                     '-118.307849',
+                                                     '34.267232'
+                                                   ],
+                                                   [
+                                                     '-118.182005',
+                                                     '34.267232'
+                                                   ],
+                                                   [
+                                                     '-118.182005',
+                                                     '34.118761'
+                                                   ]
+                                                 ]
+                                               ],
+                              'type' => 'Polygon'
+                            }
+        };
+
+$VAR1 = {
+          'country' => 'United States',
+          'place_type' => 'city',
+          'country_code' => 'US',
+          'name' => 'Baltimore',
+          'full_name' => 'Baltimore, MD',
+          'url' => 'http://api.twitter.com/1/geo/id/c0b8e8dc81930292.json',
+          'id' => 'c0b8e8dc81930292',
+          'attributes' => {},
+          'bounding_box' => {
+                              'coordinates' => [
+                                                 [
+                                                   [
+                                                     '-76.711519',
+                                                     '39.197207'
+                                                   ],
+                                                   [
+                                                     '-76.711519',
+                                                     '39.372206'
+                                                   ],
+                                                   [
+                                                     '-76.529453',
+                                                     '39.372206'
+                                                   ],
+                                                   [
+                                                     '-76.529453',
+                                                     '39.197207'
+                                                   ]
+                                                 ]
+                                               ],
+                              'type' => 'Polygon'
+                            }
+        };
+
+$VAR1 = {
+          'country' => 'United States',
+          'place_type' => 'city',
+          'country_code' => 'US',
+          'name' => 'Boston',
+          'full_name' => 'Boston, MA',
+          'url' => 'http://api.twitter.com/1/geo/id/67b98f17fdcf20be.json',
+          'id' => '67b98f17fdcf20be',
+          'attributes' => {},
+          'bounding_box' => {
+                              'coordinates' => [
+                                                 [
+                                                   [
+                                                     '-71.191113',
+                                                     '42.22788'
+                                                   ],
+                                                   [
+                                                     '-71.191113',
+                                                     '42.40082'
+                                                   ],
+                                                   [
+                                                     '-70.749455',
+                                                     '42.40082'
+                                                   ],
+                                                   [
+                                                     '-70.749455',
+                                                     '42.22788'
+                                                   ]
+                                                 ]
+                                               ],
+                              'type' => 'Polygon'
+                            }
+        };
+
+$VAR1 = {
+          'country' => 'United States',
+          'place_type' => 'city',
+          'country_code' => 'US',
+          'name' => 'North Charleston',
+          'full_name' => 'North Charleston, SC',
+          'url' => 'http://api.twitter.com/1/geo/id/18df13e4a5a670b5.json',
+          'id' => '18df13e4a5a670b5',
+          'attributes' => {},
+          'bounding_box' => {
+                              'coordinates' => [
+                                                 [
+                                                   [
+                                                     '-80.157601',
+                                                     '32.826744'
+                                                   ],
+                                                   [
+                                                     '-80.157601',
+                                                     '32.999514'
+                                                   ],
+                                                   [
+                                                     '-79.929792',
+                                                     '32.999514'
+                                                   ],
+                                                   [
+                                                     '-79.929792',
+                                                     '32.826744'
+                                                   ]
+                                                 ]
+                                               ],
+                              'type' => 'Polygon'
+                            }
+        };
+
+$VAR1 = {
+          'country' => 'United States',
+          'place_type' => 'admin',
+          'country_code' => 'US',
+          'name' => 'Arizona',
+          'full_name' => 'Arizona, US',
+          'url' => 'http://api.twitter.com/1/geo/id/a612c69b44b2e5da.json',
+          'id' => 'a612c69b44b2e5da',
+          'attributes' => {},
+          'bounding_box' => {
+                              'coordinates' => [
+                                                 [
+                                                   [
+                                                     '-114.816591',
+                                                     '31.332177'
+                                                   ],
+                                                   [
+                                                     '-114.816591',
+                                                     '37.00426'
+                                                   ],
+                                                   [
+                                                     '-109.045223',
+                                                     '37.00426'
+                                                   ],
+                                                   [
+                                                     '-109.045223',
+                                                     '31.332177'
+                                                   ]
+                                                 ]
+                                               ],
+                              'type' => 'Polygon'
+                            }
+        };
+
+$VAR1 = {
+          'country' => 'United States',
+          'place_type' => 'city',
+          'country_code' => 'US',
+          'name' => 'Carrboro',
+          'full_name' => 'Carrboro, NC',
+          'url' => 'http://api.twitter.com/1/geo/id/c3a90b8ce84f216e.json',
+          'id' => 'c3a90b8ce84f216e',
+          'attributes' => {},
+          'bounding_box' => {
+                              'coordinates' => [
+                                                 [
+                                                   [
+                                                     '-79.124678',
+                                                     '35.889947'
+                                                   ],
+                                                   [
+                                                     '-79.124678',
+                                                     '35.954563'
+                                                   ],
+                                                   [
+                                                     '-79.063871',
+                                                     '35.954563'
+                                                   ],
+                                                   [
+                                                     '-79.063871',
+                                                     '35.889947'
+                                                   ]
+                                                 ]
+                                               ],
+                              'type' => 'Polygon'
+                            }
+        };
+
+$VAR1 = {
+          'country' => 'United States',
+          'place_type' => 'city',
+          'country_code' => 'US',
+          'name' => 'Omaha',
+          'full_name' => 'Omaha, NE',
+          'url' => 'http://api.twitter.com/1/geo/id/a84b808ce3f11719.json',
+          'id' => 'a84b808ce3f11719',
+          'attributes' => {},
+          'bounding_box' => {
+                              'coordinates' => [
+                                                 [
+                                                   [
+                                                     '-96.210109',
+                                                     '41.190548'
+                                                   ],
+                                                   [
+                                                     '-96.210109',
+                                                     '41.39317'
+                                                   ],
+                                                   [
+                                                     '-95.871141',
+                                                     '41.39317'
+                                                   ],
+                                                   [
+                                                     '-95.871141',
+                                                     '41.190548'
+                                                   ]
+                                                 ]
+                                               ],
+                              'type' => 'Polygon'
+                            }
+        };
+
+$VAR1 = {
+          'country' => 'United States',
+          'place_type' => 'city',
+          'country_code' => 'US',
+          'name' => 'Russellville',
+          'full_name' => 'Russellville, KY',
+          'url' => 'http://api.twitter.com/1/geo/id/42fd89210d4e3bbd.json',
+          'id' => '42fd89210d4e3bbd',
+          'attributes' => {},
+          'bounding_box' => {
+                              'coordinates' => [
+                                                 [
+                                                   [
+                                                     '-86.938206',
+                                                     '36.806585'
+                                                   ],
+                                                   [
+                                                     '-86.938206',
+                                                     '36.86431'
+                                                   ],
+                                                   [
+                                                     '-86.859876',
+                                                     '36.86431'
+                                                   ],
+                                                   [
+                                                     '-86.859876',
+                                                     '36.806585'
+                                                   ]
+                                                 ]
+                                               ],
+                              'type' => 'Polygon'
+                            }
+        };
+
+$VAR1 = {
+          'country' => 'United States',
+          'place_type' => 'city',
+          'country_code' => 'US',
+          'name' => 'Camden',
+          'full_name' => 'Camden, AL',
+          'url' => 'http://api.twitter.com/1/geo/id/3752c0374879b648.json',
+          'id' => '3752c0374879b648',
+          'attributes' => {},
+          'bounding_box' => {
+                              'coordinates' => [
+                                                 [
+                                                   [
+                                                     '-87.319408',
+                                                     '31.987618'
+                                                   ],
+                                                   [
+                                                     '-87.319408',
+                                                     '32.020899'
+                                                   ],
+                                                   [
+                                                     '-87.26812',
+                                                     '32.020899'
+                                                   ],
+                                                   [
+                                                     '-87.26812',
+                                                     '31.987618'
+                                                   ]
+                                                 ]
+                                               ],
+                              'type' => 'Polygon'
+                            }
+        };
+
+$VAR1 = {
+          'country' => 'United States',
+          'place_type' => 'city',
+          'country_code' => 'US',
+          'name' => 'Onota',
+          'full_name' => 'Onota, MI',
+          'url' => 'http://api.twitter.com/1/geo/id/b168d01ccb50147c.json',
+          'id' => 'b168d01ccb50147c',
+          'attributes' => {},
+          'bounding_box' => {
+                              'coordinates' => [
+                                                 [
+                                                   [
+                                                     '-87.116634',
+                                                     '46.390502'
+                                                   ],
+                                                   [
+                                                     '-87.116634',
+                                                     '46.546583'
+                                                   ],
+                                                   [
+                                                     '-86.866284',
+                                                     '46.546583'
+                                                   ],
+                                                   [
+                                                     '-86.866284',
+                                                     '46.390502'
+                                                   ]
+                                                 ]
+                                               ],
+                              'type' => 'Polygon'
+                            }
+        };
+
+$VAR1 = {
+          'country' => 'United States',
+          'place_type' => 'city',
+          'country_code' => 'US',
+          'name' => 'San Juan Capistrano',
+          'full_name' => 'San Juan Capistrano, CA',
+          'url' => 'http://api.twitter.com/1/geo/id/4aea239b6a146e77.json',
+          'id' => '4aea239b6a146e77',
+          'attributes' => {},
+          'bounding_box' => {
+                              'coordinates' => [
+                                                 [
+                                                   [
+                                                     '-117.686633',
+                                                     '33.46663'
+                                                   ],
+                                                   [
+                                                     '-117.686633',
+                                                     '33.547152'
+                                                   ],
+                                                   [
+                                                     '-117.611761',
+                                                     '33.547152'
+                                                   ],
+                                                   [
+                                                     '-117.611761',
+                                                     '33.46663'
+                                                   ]
+                                                 ]
+                                               ],
+                              'type' => 'Polygon'
+                            }
+        };
+
+$VAR1 = {
+          'country' => 'United States',
+          'place_type' => 'city',
+          'country_code' => 'US',
+          'name' => 'Irvine',
+          'full_name' => 'Irvine, CA',
+          'url' => 'http://api.twitter.com/1/geo/id/3d533362cdab8107.json',
+          'id' => '3d533362cdab8107',
+          'attributes' => {},
+          'bounding_box' => {
+                              'coordinates' => [
+                                                 [
+                                                   [
+                                                     '-117.86953',
+                                                     '33.599185'
+                                                   ],
+                                                   [
+                                                     '-117.86953',
+                                                     '33.757489'
+                                                   ],
+                                                   [
+                                                     '-117.698062',
+                                                     '33.757489'
+                                                   ],
+                                                   [
+                                                     '-117.698062',
+                                                     '33.599185'
+                                                   ]
+                                                 ]
+                                               ],
+                              'type' => 'Polygon'
+                            }
+        };
+
+$VAR1 = {
+          'country' => 'United States',
+          'place_type' => 'city',
+          'country_code' => 'US',
+          'name' => 'Kansas City',
+          'full_name' => 'Kansas City, MO',
+          'url' => 'http://api.twitter.com/1/geo/id/ddabe75a8f44fe5a.json',
+          'id' => 'ddabe75a8f44fe5a',
+          'attributes' => {},
+          'bounding_box' => {
+                              'coordinates' => [
+                                                 [
+                                                   [
+                                                     '-94.765917',
+                                                     '38.827176'
+                                                   ],
+                                                   [
+                                                     '-94.765917',
+                                                     '39.356662'
+                                                   ],
+                                                   [
+                                                     '-94.385522',
+                                                     '39.356662'
+                                                   ],
+                                                   [
+                                                     '-94.385522',
+                                                     '38.827176'
+                                                   ]
+                                                 ]
+                                               ],
+                              'type' => 'Polygon'
+                            }
+        };
+
+$VAR1 = {
+          'country' => 'United States',
+          'place_type' => 'city',
+          'country_code' => 'US',
+          'name' => 'Gloucester',
+          'full_name' => 'Gloucester, NJ',
+          'url' => 'http://api.twitter.com/1/geo/id/07f07375beda3dd8.json',
+          'id' => '07f07375beda3dd8',
+          'attributes' => {},
+          'bounding_box' => {
+                              'coordinates' => [
+                                                 [
+                                                   [
+                                                     '-75.088681',
+                                                     '39.726408'
+                                                   ],
+                                                   [
+                                                     '-75.088681',
+                                                     '39.852636'
+                                                   ],
+                                                   [
+                                                     '-74.968373',
+                                                     '39.852636'
+                                                   ],
+                                                   [
+                                                     '-74.968373',
+                                                     '39.726408'
+                                                   ]
+                                                 ]
+                                               ],
+                              'type' => 'Polygon'
+                            }
+        };
+
+$VAR1 = {
+          'country' => 'United States',
+          'place_type' => 'city',
+          'country_code' => 'US',
+          'name' => 'Lake Charles',
+          'full_name' => 'Lake Charles, LA',
+          'url' => 'http://api.twitter.com/1/geo/id/21b6f72f9fdaeb06.json',
+          'id' => '21b6f72f9fdaeb06',
+          'attributes' => {},
+          'bounding_box' => {
+                              'coordinates' => [
+                                                 [
+                                                   [
+                                                     '-93.316857',
+                                                     '30.124501'
+                                                   ],
+                                                   [
+                                                     '-93.316857',
+                                                     '30.272203'
+                                                   ],
+                                                   [
+                                                     '-93.128875',
+                                                     '30.272203'
+                                                   ],
+                                                   [
+                                                     '-93.128875',
+                                                     '30.124501'
+                                                   ]
+                                                 ]
+                                               ],
+                              'type' => 'Polygon'
+                            }
+        };
+
+$VAR1 = {
+          'country' => 'United States',
+          'place_type' => 'city',
+          'country_code' => 'US',
+          'name' => 'Philadelphia',
+          'full_name' => 'Philadelphia, PA',
+          'url' => 'http://api.twitter.com/1/geo/id/e4a0d228eb6be76b.json',
+          'id' => 'e4a0d228eb6be76b',
+          'attributes' => {},
+          'bounding_box' => {
+                              'coordinates' => [
+                                                 [
+                                                   [
+                                                     '-75.280303',
+                                                     '39.867004'
+                                                   ],
+                                                   [
+                                                     '-75.280303',
+                                                     '40.137992'
+                                                   ],
+                                                   [
+                                                     '-74.955763',
+                                                     '40.137992'
+                                                   ],
+                                                   [
+                                                     '-74.955763',
+                                                     '39.867004'
+                                                   ]
+                                                 ]
+                                               ],
+                              'type' => 'Polygon'
+                            }
+        };
+
+$VAR1 = {
+          'country' => 'United States',
+          'place_type' => 'city',
+          'country_code' => 'US',
+          'name' => 'Madison',
+          'full_name' => 'Madison, WI',
+          'url' => 'http://api.twitter.com/1/geo/id/93e191cd736864c0.json',
+          'id' => '93e191cd736864c0',
+          'attributes' => {},
+          'bounding_box' => {
+                              'coordinates' => [
+                                                 [
+                                                   [
+                                                     '-89.566389',
+                                                     '42.998071'
+                                                   ],
+                                                   [
+                                                     '-89.566389',
+                                                     '43.17023'
+                                                   ],
+                                                   [
+                                                     '-89.246452',
+                                                     '43.17023'
+                                                   ],
+                                                   [
+                                                     '-89.246452',
+                                                     '42.998071'
+                                                   ]
+                                                 ]
+                                               ],
+                              'type' => 'Polygon'
+                            }
+        };
+
+$VAR1 = {
+          'country' => 'United States',
+          'place_type' => 'city',
+          'country_code' => 'US',
+          'name' => 'Lakeland',
+          'full_name' => 'Lakeland, FL',
+          'url' => 'http://api.twitter.com/1/geo/id/3f7a925ec706ea48.json',
+          'id' => '3f7a925ec706ea48',
+          'attributes' => {},
+          'bounding_box' => {
+                              'coordinates' => [
+                                                 [
+                                                   [
+                                                     '-82.055934',
+                                                     '27.974667'
+                                                   ],
+                                                   [
+                                                     '-82.055934',
+                                                     '28.146693'
+                                                   ],
+                                                   [
+                                                     '-81.88838',
+                                                     '28.146693'
+                                                   ],
+                                                   [
+                                                     '-81.88838',
+                                                     '27.974667'
+                                                   ]
+                                                 ]
+                                               ],
+                              'type' => 'Polygon'
+                            }
+        };
+
+$VAR1 = {
+          'country' => 'United States',
+          'place_type' => 'city',
+          'country_code' => 'US',
+          'name' => 'Houston',
+          'full_name' => 'Houston, TX',
+          'url' => 'http://api.twitter.com/1/geo/id/1c69a67ad480e1b1.json',
+          'id' => '1c69a67ad480e1b1',
+          'attributes' => {},
+          'bounding_box' => {
+                              'coordinates' => [
+                                                 [
+                                                   [
+                                                     '-95.909985',
+                                                     '29.537014'
+                                                   ],
+                                                   [
+                                                     '-95.909985',
+                                                     '30.110732'
+                                                   ],
+                                                   [
+                                                     '-95.014496',
+                                                     '30.110732'
+                                                   ],
+                                                   [
+                                                     '-95.014496',
+                                                     '29.537014'
+                                                   ]
+                                                 ]
+                                               ],
+                              'type' => 'Polygon'
+                            }
+        };
+
+$VAR1 = {
+          'country' => 'United States',
+          'place_type' => 'city',
+          'country_code' => 'US',
+          'name' => 'Sparta',
+          'full_name' => 'Sparta, IN',
+          'url' => 'http://api.twitter.com/1/geo/id/e25f7a34f6d85ad0.json',
+          'id' => 'e25f7a34f6d85ad0',
+          'attributes' => {},
+          'bounding_box' => {
+                              'coordinates' => [
+                                                 [
+                                                   [
+                                                     '-85.653637',
+                                                     '41.351195'
+                                                   ],
+                                                   [
+                                                     '-85.653637',
+                                                     '41.437976'
+                                                   ],
+                                                   [
+                                                     '-85.538151',
+                                                     '41.437976'
+                                                   ],
+                                                   [
+                                                     '-85.538151',
+                                                     '41.351195'
+                                                   ]
+                                                 ]
+                                               ],
+                              'type' => 'Polygon'
+                            }
+        };
+
+$VAR1 = {
+          'country' => 'United States',
+          'place_type' => 'city',
+          'country_code' => 'US',
+          'name' => 'West Gate',
+          'full_name' => 'West Gate, VA',
+          'url' => 'http://api.twitter.com/1/geo/id/552db388e30f5030.json',
+          'id' => '552db388e30f5030',
+          'attributes' => {},
+          'bounding_box' => {
+                              'coordinates' => [
+                                                 [
+                                                   [
+                                                     '-77.514166',
+                                                     '38.770187'
+                                                   ],
+                                                   [
+                                                     '-77.514166',
+                                                     '38.794417'
+                                                   ],
+                                                   [
+                                                     '-77.473306',
+                                                     '38.794417'
+                                                   ],
+                                                   [
+                                                     '-77.473306',
+                                                     '38.770187'
+                                                   ]
+                                                 ]
+                                               ],
+                              'type' => 'Polygon'
+                            }
+        };
+
+$VAR1 = {
+          'country' => 'United States',
+          'place_type' => 'city',
+          'country_code' => 'US',
+          'name' => 'East Providence',
+          'full_name' => 'East Providence, RI',
+          'url' => 'http://api.twitter.com/1/geo/id/232aebf678219af9.json',
+          'id' => '232aebf678219af9',
+          'attributes' => {},
+          'bounding_box' => {
+                              'coordinates' => [
+                                                 [
+                                                   [
+                                                     '-71.394099',
+                                                     '41.735649'
+                                                   ],
+                                                   [
+                                                     '-71.394099',
+                                                     '41.8613'
+                                                   ],
+                                                   [
+                                                     '-71.31777',
+                                                     '41.8613'
+                                                   ],
+                                                   [
+                                                     '-71.31777',
+                                                     '41.735649'
+                                                   ]
+                                                 ]
+                                               ],
+                              'type' => 'Polygon'
+                            }
+        };
+
+$VAR1 = {
+          'country' => 'United States',
+          'place_type' => 'city',
+          'country_code' => 'US',
+          'name' => 'San Diego',
+          'full_name' => 'San Diego, CA',
+          'url' => 'http://api.twitter.com/1/geo/id/a592bd6ceb1319f7.json',
+          'id' => 'a592bd6ceb1319f7',
+          'attributes' => {},
+          'bounding_box' => {
+                              'coordinates' => [
+                                                 [
+                                                   [
+                                                     '-117.309797',
+                                                     '32.534856'
+                                                   ],
+                                                   [
+                                                     '-117.309797',
+                                                     '33.114407'
+                                                   ],
+                                                   [
+                                                     '-116.908157',
+                                                     '33.114407'
+                                                   ],
+                                                   [
+                                                     '-116.908157',
+                                                     '32.534856'
+                                                   ]
+                                                 ]
+                                               ],
+                              'type' => 'Polygon'
+                            }
+        };
+
+$VAR1 = {
+          'country' => 'United States',
+          'place_type' => 'city',
+          'country_code' => 'US',
+          'name' => 'Central Islip',
+          'full_name' => 'Central Islip, NY',
+          'url' => 'http://api.twitter.com/1/geo/id/c47fbeb881a99cf0.json',
+          'id' => 'c47fbeb881a99cf0',
+          'attributes' => {},
+          'bounding_box' => {
+                              'coordinates' => [
+                                                 [
+                                                   [
+                                                     '-73.231246',
+                                                     '40.757305'
+                                                   ],
+                                                   [
+                                                     '-73.231246',
+                                                     '40.805761'
+                                                   ],
+                                                   [
+                                                     '-73.154709',
+                                                     '40.805761'
+                                                   ],
+                                                   [
+                                                     '-73.154709',
+                                                     '40.757305'
+                                                   ]
+                                                 ]
+                                               ],
+                              'type' => 'Polygon'
+                            }
+        };
+
+$VAR1 = {
+          'country' => 'United States',
+          'place_type' => 'city',
+          'country_code' => 'US',
+          'name' => 'Shawnee',
+          'full_name' => 'Shawnee, VA',
+          'url' => 'http://api.twitter.com/1/geo/id/6d84a8f7dffb0c62.json',
+          'id' => '6d84a8f7dffb0c62',
+          'attributes' => {},
+          'bounding_box' => {
+                              'coordinates' => [
+                                                 [
+                                                   [
+                                                     '-78.200729',
+                                                     '39.061618'
+                                                   ],
+                                                   [
+                                                     '-78.200729',
+                                                     '39.185226'
+                                                   ],
+                                                   [
+                                                     '-78.089791',
+                                                     '39.185226'
+                                                   ],
+                                                   [
+                                                     '-78.089791',
+                                                     '39.061618'
+                                                   ]
+                                                 ]
+                                               ],
+                              'type' => 'Polygon'
+                            }
+        };
+
+$VAR1 = {
+          'country' => 'United States',
+          'place_type' => 'city',
+          'country_code' => 'US',
+          'name' => 'Indianapolis',
+          'full_name' => 'Indianapolis, IN',
+          'url' => 'http://api.twitter.com/1/geo/id/206837afe6e13d1c.json',
+          'id' => '206837afe6e13d1c',
+          'attributes' => {},
+          'bounding_box' => {
+                              'coordinates' => [
+                                                 [
+                                                   [
+                                                     '-86.328121',
+                                                     '39.632177'
+                                                   ],
+                                                   [
+                                                     '-86.328121',
+                                                     '39.927392'
+                                                   ],
+                                                   [
+                                                     '-85.937379',
+                                                     '39.927392'
+                                                   ],
+                                                   [
+                                                     '-85.937379',
+                                                     '39.632177'
+                                                   ]
+                                                 ]
+                                               ],
+                              'type' => 'Polygon'
+                            }
+        };
+
+$VAR1 = {
+          'country' => 'United States',
+          'place_type' => 'city',
+          'country_code' => 'US',
+          'name' => 'Bangor',
+          'full_name' => 'Bangor, MI',
+          'url' => 'http://api.twitter.com/1/geo/id/d5d53c2587d9aa0f.json',
+          'id' => 'd5d53c2587d9aa0f',
+          'attributes' => {},
+          'bounding_box' => {
+                              'coordinates' => [
+                                                 [
+                                                   [
+                                                     '-86.128272',
+                                                     '42.294555'
+                                                   ],
+                                                   [
+                                                     '-86.128272',
+                                                     '42.32348'
+                                                   ],
+                                                   [
+                                                     '-86.096054',
+                                                     '42.32348'
+                                                   ],
+                                                   [
+                                                     '-86.096054',
+                                                     '42.294555'
+                                                   ]
+                                                 ]
+                                               ],
+                              'type' => 'Polygon'
+                            }
+        };
+
+$VAR1 = {
+          'country' => 'United States',
+          'place_type' => 'city',
+          'country_code' => 'US',
+          'name' => 'Boston',
+          'full_name' => 'Boston, MA',
+          'url' => 'http://api.twitter.com/1/geo/id/67b98f17fdcf20be.json',
+          'id' => '67b98f17fdcf20be',
+          'attributes' => {},
+          'bounding_box' => {
+                              'coordinates' => [
+                                                 [
+                                                   [
+                                                     '-71.191113',
+                                                     '42.22788'
+                                                   ],
+                                                   [
+                                                     '-71.191113',
+                                                     '42.40082'
+                                                   ],
+                                                   [
+                                                     '-70.749455',
+                                                     '42.40082'
+                                                   ],
+                                                   [
+                                                     '-70.749455',
+                                                     '42.22788'
+                                                   ]
+                                                 ]
+                                               ],
+                              'type' => 'Polygon'
+                            }
+        };
+
+$VAR1 = {
+          'country' => 'United States',
+          'place_type' => 'admin',
+          'country_code' => 'US',
+          'name' => 'Illinois',
+          'full_name' => 'Illinois, US',
+          'url' => 'http://api.twitter.com/1/geo/id/f54a2170ff4b15f7.json',
+          'id' => 'f54a2170ff4b15f7',
+          'attributes' => {},
+          'bounding_box' => {
+                              'coordinates' => [
+                                                 [
+                                                   [
+                                                     '-91.513079',
+                                                     '36.970298'
+                                                   ],
+                                                   [
+                                                     '-91.513079',
+                                                     '42.508338'
+                                                   ],
+                                                   [
+                                                     '-87.019935',
+                                                     '42.508338'
+                                                   ],
+                                                   [
+                                                     '-87.019935',
+                                                     '36.970298'
+                                                   ]
+                                                 ]
+                                               ],
+                              'type' => 'Polygon'
+                            }
+        };
+
+$VAR1 = {
+          'country' => 'United States',
+          'place_type' => 'city',
+          'country_code' => 'US',
+          'name' => 'Los Angeles',
+          'full_name' => 'Los Angeles, CA',
+          'url' => 'http://api.twitter.com/1/geo/id/3b77caf94bfc81fe.json',
+          'id' => '3b77caf94bfc81fe',
+          'attributes' => {},
+          'bounding_box' => {
+                              'coordinates' => [
+                                                 [
+                                                   [
+                                                     '-118.668176',
+                                                     '33.704554'
+                                                   ],
+                                                   [
+                                                     '-118.668176',
+                                                     '34.337306'
+                                                   ],
+                                                   [
+                                                     '-117.753334',
+                                                     '34.337306'
+                                                   ],
+                                                   [
+                                                     '-117.753334',
+                                                     '33.704554'
+                                                   ]
+                                                 ]
+                                               ],
+                              'type' => 'Polygon'
+                            }
+        };
+
+$VAR1 = {
+          'country' => 'United States',
+          'place_type' => 'city',
+          'country_code' => 'US',
+          'name' => 'Hale Center',
+          'full_name' => 'Hale Center, TX',
+          'url' => 'http://api.twitter.com/1/geo/id/a966c8e950cd1c79.json',
+          'id' => 'a966c8e950cd1c79',
+          'attributes' => {},
+          'bounding_box' => {
+                              'coordinates' => [
+                                                 [
+                                                   [
+                                                     '-101.855725',
+                                                     '34.055617'
+                                                   ],
+                                                   [
+                                                     '-101.855725',
+                                                     '34.073239'
+                                                   ],
+                                                   [
+                                                     '-101.8359',
+                                                     '34.073239'
+                                                   ],
+                                                   [
+                                                     '-101.8359',
+                                                     '34.055617'
+                                                   ]
+                                                 ]
+                                               ],
+                              'type' => 'Polygon'
+                            }
+        };
+
+$VAR1 = {
+          'country' => 'United States',
+          'place_type' => 'city',
+          'country_code' => 'US',
+          'name' => 'Garden City',
+          'full_name' => 'Garden City, KS',
+          'url' => 'http://api.twitter.com/1/geo/id/c4b8666eabf4724b.json',
+          'id' => 'c4b8666eabf4724b',
+          'attributes' => {},
+          'bounding_box' => {
+                              'coordinates' => [
+                                                 [
+                                                   [
+                                                     '-100.901768',
+                                                     '37.954712'
+                                                   ],
+                                                   [
+                                                     '-100.901768',
+                                                     '38.003543'
+                                                   ],
+                                                   [
+                                                     '-100.819819',
+                                                     '38.003543'
+                                                   ],
+                                                   [
+                                                     '-100.819819',
+                                                     '37.954712'
+                                                   ]
+                                                 ]
+                                               ],
+                              'type' => 'Polygon'
+                            }
+        };
+
+$VAR1 = {
+          'country' => 'United States',
+          'place_type' => 'city',
+          'country_code' => 'US',
+          'name' => 'Everett',
+          'full_name' => 'Everett, WA',
+          'url' => 'http://api.twitter.com/1/geo/id/76e74b864547959b.json',
+          'id' => '76e74b864547959b',
+          'attributes' => {},
+          'bounding_box' => {
+                              'coordinates' => [
+                                                 [
+                                                   [
+                                                     '-122.29397',
+                                                     '47.884803'
+                                                   ],
+                                                   [
+                                                     '-122.29397',
+                                                     '48.036582'
+                                                   ],
+                                                   [
+                                                     '-121.794487',
+                                                     '48.036582'
+                                                   ],
+                                                   [
+                                                     '-121.794487',
+                                                     '47.884803'
+                                                   ]
+                                                 ]
+                                               ],
+                              'type' => 'Polygon'
+                            }
+        };
+
+$VAR1 = {
+          'country' => 'United States',
+          'place_type' => 'city',
+          'country_code' => 'US',
+          'name' => 'Rockville',
+          'full_name' => 'Rockville, MD',
+          'url' => 'http://api.twitter.com/1/geo/id/8c88f07c8666389d.json',
+          'id' => '8c88f07c8666389d',
+          'attributes' => {},
+          'bounding_box' => {
+                              'coordinates' => [
+                                                 [
+                                                   [
+                                                     '-77.200302',
+                                                     '39.053153'
+                                                   ],
+                                                   [
+                                                     '-77.200302',
+                                                     '39.120714'
+                                                   ],
+                                                   [
+                                                     '-77.107749',
+                                                     '39.120714'
+                                                   ],
+                                                   [
+                                                     '-77.107749',
+                                                     '39.053153'
+                                                   ]
+                                                 ]
+                                               ],
+                              'type' => 'Polygon'
+                            }
+        };
+
+$VAR1 = {
+          'country' => 'United States',
+          'place_type' => 'poi',
+          'country_code' => 'US',
+          'name' => 'Outside In',
+          'full_name' => 'Outside In, Portland',
+          'url' => 'http://api.twitter.com/1/geo/id/8fcedfac404d96b0.json',
+          'id' => '8fcedfac404d96b0',
+          'attributes' => {
+                            'street_address' => '1132 Sw 13th Ave'
+                          },
+          'bounding_box' => {
+                              'coordinates' => [
+                                                 [
+                                                   [
+                                                     '-122.68667',
+                                                     '45.517831'
+                                                   ],
+                                                   [
+                                                     '-122.68667',
+                                                     '45.517831'
+                                                   ],
+                                                   [
+                                                     '-122.68667',
+                                                     '45.517831'
+                                                   ],
+                                                   [
+                                                     '-122.68667',
+                                                     '45.517831'
+                                                   ]
+                                                 ]
+                                               ],
+                              'type' => 'Polygon'
+                            }
+        };
+
+$VAR1 = {
+          'country' => 'United States',
+          'place_type' => 'city',
+          'country_code' => 'US',
+          'name' => 'South Haven',
+          'full_name' => 'South Haven, MI',
+          'url' => 'http://api.twitter.com/1/geo/id/4ff01cc63cc8fa4f.json',
+          'id' => '4ff01cc63cc8fa4f',
+          'attributes' => {},
+          'bounding_box' => {
+                              'coordinates' => [
+                                                 [
+                                                   [
+                                                     '-86.289302',
+                                                     '42.374276'
+                                                   ],
+                                                   [
+                                                     '-86.289302',
+                                                     '42.422943'
+                                                   ],
+                                                   [
+                                                     '-86.239817',
+                                                     '42.422943'
+                                                   ],
+                                                   [
+                                                     '-86.239817',
+                                                     '42.374276'
+                                                   ]
+                                                 ]
+                                               ],
+                              'type' => 'Polygon'
+                            }
+        };
+
+$VAR1 = {
+          'country' => 'United States',
+          'place_type' => 'city',
+          'country_code' => 'US',
+          'name' => 'Samantha',
+          'full_name' => 'Samantha, AL',
+          'url' => 'http://api.twitter.com/1/geo/id/0ff67b952573d931.json',
+          'id' => '0ff67b952573d931',
+          'attributes' => {},
+          'bounding_box' => {
+                              'coordinates' => [
+                                                 [
+                                                   [
+                                                     '-87.780918',
+                                                     '33.319336'
+                                                   ],
+                                                   [
+                                                     '-87.780918',
+                                                     '33.609833'
+                                                   ],
+                                                   [
+                                                     '-87.54818',
+                                                     '33.609833'
+                                                   ],
+                                                   [
+                                                     '-87.54818',
+                                                     '33.319336'
+                                                   ]
+                                                 ]
+                                               ],
+                              'type' => 'Polygon'
+                            }
+        };
+
+$VAR1 = {
+          'country' => 'United States',
+          'place_type' => 'city',
+          'country_code' => 'US',
+          'name' => 'Lebanon',
+          'full_name' => 'Lebanon, MO',
+          'url' => 'http://api.twitter.com/1/geo/id/def92f74576d6460.json',
+          'id' => 'def92f74576d6460',
+          'attributes' => {},
+          'bounding_box' => {
+                              'coordinates' => [
+                                                 [
+                                                   [
+                                                     '-92.695548',
+                                                     '37.633425'
+                                                   ],
+                                                   [
+                                                     '-92.695548',
+                                                     '37.709766'
+                                                   ],
+                                                   [
+                                                     '-92.626351',
+                                                     '37.709766'
+                                                   ],
+                                                   [
+                                                     '-92.626351',
+                                                     '37.633425'
+                                                   ]
+                                                 ]
+                                               ],
+                              'type' => 'Polygon'
+                            }
+        };
+
+$VAR1 = {
+          'country' => 'United States',
+          'place_type' => 'admin',
+          'country_code' => 'US',
+          'name' => 'Georgia',
+          'full_name' => 'Georgia, US',
+          'url' => 'http://api.twitter.com/1/geo/id/7142eb97ae21e839.json',
+          'id' => '7142eb97ae21e839',
+          'attributes' => {},
+          'bounding_box' => {
+                              'coordinates' => [
+                                                 [
+                                                   [
+                                                     '-85.605165',
+                                                     '30.355757'
+                                                   ],
+                                                   [
+                                                     '-85.605165',
+                                                     '35.000659'
+                                                   ],
+                                                   [
+                                                     '-80.751429',
+                                                     '35.000659'
+                                                   ],
+                                                   [
+                                                     '-80.751429',
+                                                     '30.355757'
+                                                   ]
+                                                 ]
+                                               ],
+                              'type' => 'Polygon'
+                            }
+        };
+
+$VAR1 = {
+          'country' => 'United States',
+          'place_type' => 'admin',
+          'country_code' => 'US',
+          'name' => 'Mississippi',
+          'full_name' => 'Mississippi, US',
+          'url' => 'http://api.twitter.com/1/geo/id/43d2418301bf1a49.json',
+          'id' => '43d2418301bf1a49',
+          'attributes' => {},
+          'bounding_box' => {
+                              'coordinates' => [
+                                                 [
+                                                   [
+                                                     '-91.655009',
+                                                     '30.146096'
+                                                   ],
+                                                   [
+                                                     '-91.655009',
+                                                     '34.996099'
+                                                   ],
+                                                   [
+                                                     '-88.097888',
+                                                     '34.996099'
+                                                   ],
+                                                   [
+                                                     '-88.097888',
+                                                     '30.146096'
+                                                   ]
+                                                 ]
+                                               ],
+                              'type' => 'Polygon'
+                            }
+        };
+
+$VAR1 = {
+          'country' => 'United States',
+          'place_type' => 'poi',
+          'country_code' => 'US',
+          'name' => 'McDonald\'s',
+          'full_name' => 'McDonald\'s, Elyria',
+          'url' => 'http://api.twitter.com/1/geo/id/727bb10471a581fe.json',
+          'id' => '727bb10471a581fe',
+          'attributes' => {
+                            'street_address' => '311 Midway Blvd'
+                          },
+          'bounding_box' => {
+                              'coordinates' => [
+                                                 [
+                                                   [
+                                                     '-82.107708',
+                                                     '41.398772'
+                                                   ],
+                                                   [
+                                                     '-82.107708',
+                                                     '41.398772'
+                                                   ],
+                                                   [
+                                                     '-82.107708',
+                                                     '41.398772'
+                                                   ],
+                                                   [
+                                                     '-82.107708',
+                                                     '41.398772'
+                                                   ]
+                                                 ]
+                                               ],
+                              'type' => 'Polygon'
+                            }
+        };
+
+$VAR1 = {
+          'country' => 'United States',
+          'place_type' => 'city',
+          'country_code' => 'US',
+          'name' => 'Braddock',
+          'full_name' => 'Braddock, VA',
+          'url' => 'http://api.twitter.com/1/geo/id/b3b72b33b9ecc37f.json',
+          'id' => 'b3b72b33b9ecc37f',
+          'attributes' => {},
+          'bounding_box' => {
+                              'coordinates' => [
+                                                 [
+                                                   [
+                                                     '-77.347935',
+                                                     '38.78'
+                                                   ],
+                                                   [
+                                                     '-77.347935',
+                                                     '38.851699'
+                                                   ],
+                                                   [
+                                                     '-77.183863',
+                                                     '38.851699'
+                                                   ],
+                                                   [
+                                                     '-77.183863',
+                                                     '38.78'
+                                                   ]
+                                                 ]
+                                               ],
+                              'type' => 'Polygon'
+                            }
+        };
+
+$VAR1 = {
+          'country' => 'United States',
+          'place_type' => 'city',
+          'country_code' => 'US',
+          'name' => 'Shreveport',
+          'full_name' => 'Shreveport, LA',
+          'url' => 'http://api.twitter.com/1/geo/id/4ec71fc3f2579572.json',
+          'id' => '4ec71fc3f2579572',
+          'attributes' => {},
+          'bounding_box' => {
+                              'coordinates' => [
+                                                 [
+                                                   [
+                                                     '-93.947837',
+                                                     '32.33197'
+                                                   ],
+                                                   [
+                                                     '-93.947837',
+                                                     '32.589936'
+                                                   ],
+                                                   [
+                                                     '-93.67962',
+                                                     '32.589936'
+                                                   ],
+                                                   [
+                                                     '-93.67962',
+                                                     '32.33197'
+                                                   ]
+                                                 ]
+                                               ],
+                              'type' => 'Polygon'
+                            }
+        };
+
+$VAR1 = {
+          'country' => 'United States',
+          'place_type' => 'city',
+          'country_code' => 'US',
+          'name' => 'Boston',
+          'full_name' => 'Boston, MA',
+          'url' => 'http://api.twitter.com/1/geo/id/67b98f17fdcf20be.json',
+          'id' => '67b98f17fdcf20be',
+          'attributes' => {},
+          'bounding_box' => {
+                              'coordinates' => [
+                                                 [
+                                                   [
+                                                     '-71.191113',
+                                                     '42.22788'
+                                                   ],
+                                                   [
+                                                     '-71.191113',
+                                                     '42.40082'
+                                                   ],
+                                                   [
+                                                     '-70.749455',
+                                                     '42.40082'
+                                                   ],
+                                                   [
+                                                     '-70.749455',
+                                                     '42.22788'
+                                                   ]
+                                                 ]
+                                               ],
+                              'type' => 'Polygon'
+                            }
+        };
+
+$VAR1 = {
+          'country' => 'United States',
+          'place_type' => 'city',
+          'country_code' => 'US',
+          'name' => 'Eden',
+          'full_name' => 'Eden, NC',
+          'url' => 'http://api.twitter.com/1/geo/id/d881b2cc29428b03.json',
+          'id' => 'd881b2cc29428b03',
+          'attributes' => {},
+          'bounding_box' => {
+                              'coordinates' => [
+                                                 [
+                                                   [
+                                                     '-79.787927',
+                                                     '36.471359'
+                                                   ],
+                                                   [
+                                                     '-79.787927',
+                                                     '36.533787'
+                                                   ],
+                                                   [
+                                                     '-79.679714',
+                                                     '36.533787'
+                                                   ],
+                                                   [
+                                                     '-79.679714',
+                                                     '36.471359'
+                                                   ]
+                                                 ]
+                                               ],
+                              'type' => 'Polygon'
+                            }
+        };
+
+$VAR1 = {
+          'country' => 'United States',
+          'place_type' => 'city',
+          'country_code' => 'US',
+          'name' => 'Redan',
+          'full_name' => 'Redan, GA',
+          'url' => 'http://api.twitter.com/1/geo/id/b39bbbbd69b97fc0.json',
+          'id' => 'b39bbbbd69b97fc0',
+          'attributes' => {},
+          'bounding_box' => {
+                              'coordinates' => [
+                                                 [
+                                                   [
+                                                     '-84.197445',
+                                                     '33.714193'
+                                                   ],
+                                                   [
+                                                     '-84.197445',
+                                                     '33.76183'
+                                                   ],
+                                                   [
+                                                     '-84.115335',
+                                                     '33.76183'
+                                                   ],
+                                                   [
+                                                     '-84.115335',
+                                                     '33.714193'
+                                                   ]
+                                                 ]
+                                               ],
+                              'type' => 'Polygon'
+                            }
+        };
+
+$VAR1 = {
+          'country' => 'United States',
+          'place_type' => 'admin',
+          'country_code' => 'US',
+          'name' => 'South Carolina',
+          'full_name' => 'South Carolina, US',
+          'url' => 'http://api.twitter.com/1/geo/id/6057f1e35bcc6c20.json',
+          'id' => '6057f1e35bcc6c20',
+          'attributes' => {},
+          'bounding_box' => {
+                              'coordinates' => [
+                                                 [
+                                                   [
+                                                     '-83.353928',
+                                                     '32.033454'
+                                                   ],
+                                                   [
+                                                     '-83.353928',
+                                                     '35.21554'
+                                                   ],
+                                                   [
+                                                     '-78.499301',
+                                                     '35.21554'
+                                                   ],
+                                                   [
+                                                     '-78.499301',
+                                                     '32.033454'
+                                                   ]
+                                                 ]
+                                               ],
+                              'type' => 'Polygon'
+                            }
+        };
+
+$VAR1 = {
+          'country' => 'United States',
+          'place_type' => 'city',
+          'country_code' => 'US',
+          'name' => 'Albany',
+          'full_name' => 'Albany, NY',
+          'url' => 'http://api.twitter.com/1/geo/id/f4fcc0a81f274fa9.json',
+          'id' => 'f4fcc0a81f274fa9',
+          'attributes' => {},
+          'bounding_box' => {
+                              'coordinates' => [
+                                                 [
+                                                   [
+                                                     '-73.898099',
+                                                     '42.61379'
+                                                   ],
+                                                   [
+                                                     '-73.898099',
+                                                     '42.722379'
+                                                   ],
+                                                   [
+                                                     '-73.723263',
+                                                     '42.722379'
+                                                   ],
+                                                   [
+                                                     '-73.723263',
+                                                     '42.61379'
+                                                   ]
+                                                 ]
+                                               ],
+                              'type' => 'Polygon'
+                            }
+        };
+
+$VAR1 = {
+          'country' => 'United States',
+          'place_type' => 'admin',
+          'country_code' => 'US',
+          'name' => 'Tennessee',
+          'full_name' => 'Tennessee, US',
+          'url' => 'http://api.twitter.com/1/geo/id/7f7d58e5229c6b6c.json',
+          'id' => '7f7d58e5229c6b6c',
+          'attributes' => {},
+          'bounding_box' => {
+                              'coordinates' => [
+                                                 [
+                                                   [
+                                                     '-90.310298',
+                                                     '34.982924'
+                                                   ],
+                                                   [
+                                                     '-90.310298',
+                                                     '36.678118'
+                                                   ],
+                                                   [
+                                                     '-81.6469',
+                                                     '36.678118'
+                                                   ],
+                                                   [
+                                                     '-81.6469',
+                                                     '34.982924'
+                                                   ]
+                                                 ]
+                                               ],
+                              'type' => 'Polygon'
+                            }
+        };
+
+$VAR1 = {
+          'country' => 'United States',
+          'place_type' => 'city',
+          'country_code' => 'US',
+          'name' => 'Buffalo',
+          'full_name' => 'Buffalo, NY',
+          'url' => 'http://api.twitter.com/1/geo/id/a307591cd0413588.json',
+          'id' => 'a307591cd0413588',
+          'attributes' => {},
+          'bounding_box' => {
+                              'coordinates' => [
+                                                 [
+                                                   [
+                                                     '-78.956877',
+                                                     '42.826023'
+                                                   ],
+                                                   [
+                                                     '-78.956877',
+                                                     '42.966455'
+                                                   ],
+                                                   [
+                                                     '-78.795157',
+                                                     '42.966455'
+                                                   ],
+                                                   [
+                                                     '-78.795157',
+                                                     '42.826023'
+                                                   ]
+                                                 ]
+                                               ],
+                              'type' => 'Polygon'
+                            }
+        };
+
+$VAR1 = {
+          'country' => 'United States',
+          'place_type' => 'city',
+          'country_code' => 'US',
+          'name' => 'Irving',
+          'full_name' => 'Irving, TX',
+          'url' => 'http://api.twitter.com/1/geo/id/dce44ec49eb788f5.json',
+          'id' => 'dce44ec49eb788f5',
+          'attributes' => {},
+          'bounding_box' => {
+                              'coordinates' => [
+                                                 [
+                                                   [
+                                                     '-97.034085',
+                                                     '32.771786'
+                                                   ],
+                                                   [
+                                                     '-97.034085',
+                                                     '32.953966'
+                                                   ],
+                                                   [
+                                                     '-96.888782',
+                                                     '32.953966'
+                                                   ],
+                                                   [
+                                                     '-96.888782',
+                                                     '32.771786'
+                                                   ]
+                                                 ]
+                                               ],
+                              'type' => 'Polygon'
+                            }
+        };
+

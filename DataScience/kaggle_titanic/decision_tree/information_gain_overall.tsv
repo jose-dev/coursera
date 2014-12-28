@@ -1,0 +1,48 @@
+VARIABLE	CLASS	TOTAL	SURVIVED	DIED	ENTROPY
+SURVIVAL	ALL	891	342	549	0.961
+
+VARIABLE	CLASS	TOTAL	SURVIVED	DIED	ENTROPY
+sex	female	314	233	81	0.290
+sex	male	577	109	468	0.743
+	Overall Entropy	0.743
+	Information Gain	0.218
+
+VARIABLE	CLASS	TOTAL	SURVIVED	DIED	ENTROPY
+pclass	1	216	136	80	0.231
+pclass	2	184	87	97	0.437
+pclass	3	491	119	372	0.877
+	Overall Entropy	0.877
+	Information Gain	0.084
+
+VARIABLE	CLASS	TOTAL	SURVIVED	DIED	ENTROPY
+family	0	537	163	374	0.534
+family	1	354	179	175	0.931
+	Overall Entropy	0.931
+	Information Gain	0.030
+
+VARIABLE	CLASS	TOTAL	SURVIVED	DIED	ENTROPY
+under_5s	0	848	312	536	0.903
+under_5s	1	43	30	13	0.946
+	Overall Entropy	0.946
+	Information Gain	0.015
+
+VARIABLE	CLASS	TOTAL	SURVIVED	DIED	ENTROPY
+embarked	C	168	93	75	0.187
+embarked	Q	77	30	47	0.270
+embarked	S	646	219	427	0.940
+	Overall Entropy	0.940
+	Information Gain	0.021
+
+VARIABLE	CLASS	TOTAL	SURVIVED	DIED	ENTROPY
+fare_range	cheap	773	261	512	0.800
+fare_range	expensive	20	14	6	0.820
+fare_range	regular	98	67	31	0.919
+	Overall Entropy	0.919
+	Information Gain	0.042
+
+VARIABLE	CLASS	TOTAL	SURVIVED	DIED	ENTROPY
+known_cabin	0	687	206	481	0.679
+known_cabin	1	204	136	68	0.890
+	Overall Entropy	0.890
+	Information Gain	0.071
+

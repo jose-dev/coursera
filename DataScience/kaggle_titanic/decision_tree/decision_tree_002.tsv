@@ -1,0 +1,206 @@
+PARENT_VARIABLE	PARENT_CLASS	VARIABLE	CLASS	TOTAL	SURVIVED	DIED	ENTROPY
+sex::pclass	female::1	SURVIVAL	ALL	94	91	3	0.204
+
+PARENT_VARIABLE	PARENT_CLASS	VARIABLE	CLASS	TOTAL	SURVIVED	DIED	ENTROPY
+sex::pclass	female::1	family	0	34	33	1	0.069
+sex::pclass	female::1	family	1	60	58	2	0.204
+			Overall Entropy	0.204
+	Information Gain	0.000
+
+PARENT_VARIABLE	PARENT_CLASS	VARIABLE	CLASS	TOTAL	SURVIVED	DIED	ENTROPY
+sex::pclass	female::1	under_5s	0	93	91	2	0.148
+sex::pclass	female::1	under_5s	1	1	0	1	0.148
+			Overall Entropy	0.148
+	Information Gain	0.056
+
+PARENT_VARIABLE	PARENT_CLASS	VARIABLE	CLASS	TOTAL	SURVIVED	DIED	ENTROPY
+sex::pclass	female::1	embarked	C	43	42	1	0.073
+sex::pclass	female::1	embarked	Q	1	1	0	0.073
+sex::pclass	female::1	embarked	S	50	48	2	0.202
+			Overall Entropy	0.202
+	Information Gain	0.002
+
+PARENT_VARIABLE	PARENT_CLASS	VARIABLE	CLASS	TOTAL	SURVIVED	DIED	ENTROPY
+sex::pclass	female::1	fare_range	cheap	27	26	1	0.066
+sex::pclass	female::1	fare_range	expensive	12	12	0	0.066
+sex::pclass	female::1	fare_range	regular	55	53	2	0.198
+			Overall Entropy	0.198
+	Information Gain	0.006
+
+PARENT_VARIABLE	PARENT_CLASS	VARIABLE	CLASS	TOTAL	SURVIVED	DIED	ENTROPY
+sex::pclass	female::1	known_cabin	0	13	13	0	0.000
+sex::pclass	female::1	known_cabin	1	81	78	3	0.197
+			Overall Entropy	0.197
+	Information Gain	0.007
+
+PARENT_VARIABLE	PARENT_CLASS	VARIABLE	CLASS	TOTAL	SURVIVED	DIED	ENTROPY
+sex::pclass	female::2	SURVIVAL	ALL	76	70	6	0.398
+
+PARENT_VARIABLE	PARENT_CLASS	VARIABLE	CLASS	TOTAL	SURVIVED	DIED	ENTROPY
+sex::pclass	female::2	family	0	32	29	3	0.189
+sex::pclass	female::2	family	1	44	41	3	0.397
+			Overall Entropy	0.397
+	Information Gain	0.002
+
+PARENT_VARIABLE	PARENT_CLASS	VARIABLE	CLASS	TOTAL	SURVIVED	DIED	ENTROPY
+sex::pclass	female::2	under_5s	0	71	65	6	0.390
+sex::pclass	female::2	under_5s	1	5	5	0	0.390
+			Overall Entropy	0.390
+	Information Gain	0.008
+
+PARENT_VARIABLE	PARENT_CLASS	VARIABLE	CLASS	TOTAL	SURVIVED	DIED	ENTROPY
+sex::pclass	female::2	embarked	C	7	7	0	0.000
+sex::pclass	female::2	embarked	Q	2	2	0	0.000
+sex::pclass	female::2	embarked	S	67	61	6	0.383
+			Overall Entropy	0.383
+	Information Gain	0.015
+
+PARENT_VARIABLE	PARENT_CLASS	VARIABLE	CLASS	TOTAL	SURVIVED	DIED	ENTROPY
+sex::pclass	female::2	fare_range	cheap	74	68	6	0.395
+sex::pclass	female::2	fare_range	regular	2	2	0	0.395
+			Overall Entropy	0.395
+	Information Gain	0.003
+
+PARENT_VARIABLE	PARENT_CLASS	VARIABLE	CLASS	TOTAL	SURVIVED	DIED	ENTROPY
+sex::pclass	female::2	known_cabin	0	66	61	5	0.336
+sex::pclass	female::2	known_cabin	1	10	9	1	0.398
+			Overall Entropy	0.398
+	Information Gain	0.001
+
+PARENT_VARIABLE	PARENT_CLASS	VARIABLE	CLASS	TOTAL	SURVIVED	DIED	ENTROPY
+sex::pclass	female::3	SURVIVAL	ALL	144	72	72	1.000
+
+PARENT_VARIABLE	PARENT_CLASS	VARIABLE	CLASS	TOTAL	SURVIVED	DIED	ENTROPY
+sex::pclass	female::3	family	0	60	37	23	0.400
+sex::pclass	female::3	family	1	84	35	49	0.972
+			Overall Entropy	0.972
+	Information Gain	0.028
+
+PARENT_VARIABLE	PARENT_CLASS	VARIABLE	CLASS	TOTAL	SURVIVED	DIED	ENTROPY
+sex::pclass	female::3	under_5s	0	129	61	68	0.894
+sex::pclass	female::3	under_5s	1	15	11	4	0.981
+			Overall Entropy	0.981
+	Information Gain	0.019
+
+PARENT_VARIABLE	PARENT_CLASS	VARIABLE	CLASS	TOTAL	SURVIVED	DIED	ENTROPY
+sex::pclass	female::3	embarked	C	23	15	8	0.149
+sex::pclass	female::3	embarked	Q	33	24	9	0.343
+sex::pclass	female::3	embarked	S	88	33	55	0.926
+			Overall Entropy	0.926
+	Information Gain	0.074
+
+PARENT_VARIABLE	PARENT_CLASS	VARIABLE	CLASS	TOTAL	SURVIVED	DIED	ENTROPY
+sex::pclass	female::3	fare_range	cheap	141	72	69	0.979
+sex::pclass	female::3	fare_range	regular	3	0	3	0.979
+			Overall Entropy	0.979
+	Information Gain	0.021
+
+PARENT_VARIABLE	PARENT_CLASS	VARIABLE	CLASS	TOTAL	SURVIVED	DIED	ENTROPY
+sex::pclass	female::3	known_cabin	0	138	68	70	0.958
+sex::pclass	female::3	known_cabin	1	6	4	2	0.996
+			Overall Entropy	0.996
+	Information Gain	0.004
+
+PARENT_VARIABLE	PARENT_CLASS	VARIABLE	CLASS	TOTAL	SURVIVED	DIED	ENTROPY
+sex::pclass	male::1	SURVIVAL	ALL	122	45	77	0.950
+
+PARENT_VARIABLE	PARENT_CLASS	VARIABLE	CLASS	TOTAL	SURVIVED	DIED	ENTROPY
+sex::pclass	male::1	family	0	75	25	50	0.565
+sex::pclass	male::1	family	1	47	20	27	0.944
+			Overall Entropy	0.944
+	Information Gain	0.006
+
+PARENT_VARIABLE	PARENT_CLASS	VARIABLE	CLASS	TOTAL	SURVIVED	DIED	ENTROPY
+sex::pclass	male::1	under_5s	0	120	43	77	0.926
+sex::pclass	male::1	under_5s	1	2	2	0	0.926
+			Overall Entropy	0.926
+	Information Gain	0.024
+
+PARENT_VARIABLE	PARENT_CLASS	VARIABLE	CLASS	TOTAL	SURVIVED	DIED	ENTROPY
+sex::pclass	male::1	embarked	C	42	17	25	0.335
+sex::pclass	male::1	embarked	Q	1	0	1	0.335
+sex::pclass	male::1	embarked	S	79	28	51	0.943
+			Overall Entropy	0.943
+	Information Gain	0.007
+
+PARENT_VARIABLE	PARENT_CLASS	VARIABLE	CLASS	TOTAL	SURVIVED	DIED	ENTROPY
+sex::pclass	male::1	fare_range	cheap	85	31	54	0.659
+sex::pclass	male::1	fare_range	expensive	8	2	6	0.713
+sex::pclass	male::1	fare_range	regular	29	12	17	0.945
+			Overall Entropy	0.945
+	Information Gain	0.005
+
+PARENT_VARIABLE	PARENT_CLASS	VARIABLE	CLASS	TOTAL	SURVIVED	DIED	ENTROPY
+sex::pclass	male::1	known_cabin	0	27	6	21	0.169
+sex::pclass	male::1	known_cabin	1	95	39	56	0.930
+			Overall Entropy	0.930
+	Information Gain	0.020
+
+PARENT_VARIABLE	PARENT_CLASS	VARIABLE	CLASS	TOTAL	SURVIVED	DIED	ENTROPY
+sex::pclass	male::2	SURVIVAL	ALL	108	17	91	0.628
+
+PARENT_VARIABLE	PARENT_CLASS	VARIABLE	CLASS	TOTAL	SURVIVED	DIED	ENTROPY
+sex::pclass	male::2	family	0	72	7	65	0.307
+sex::pclass	male::2	family	1	36	10	26	0.591
+			Overall Entropy	0.591
+	Information Gain	0.037
+
+PARENT_VARIABLE	PARENT_CLASS	VARIABLE	CLASS	TOTAL	SURVIVED	DIED	ENTROPY
+sex::pclass	male::2	under_5s	0	100	9	91	0.404
+sex::pclass	male::2	under_5s	1	8	8	0	0.404
+			Overall Entropy	0.404
+	Information Gain	0.224
+
+PARENT_VARIABLE	PARENT_CLASS	VARIABLE	CLASS	TOTAL	SURVIVED	DIED	ENTROPY
+sex::pclass	male::2	embarked	C	10	2	8	0.067
+sex::pclass	male::2	embarked	Q	1	0	1	0.067
+sex::pclass	male::2	embarked	S	97	15	82	0.625
+			Overall Entropy	0.625
+	Information Gain	0.003
+
+PARENT_VARIABLE	PARENT_CLASS	VARIABLE	CLASS	TOTAL	SURVIVED	DIED	ENTROPY
+sex::pclass	male::2	fare_range	cheap	103	17	86	0.616
+sex::pclass	male::2	fare_range	regular	5	0	5	0.616
+			Overall Entropy	0.616
+	Information Gain	0.012
+
+PARENT_VARIABLE	PARENT_CLASS	VARIABLE	CLASS	TOTAL	SURVIVED	DIED	ENTROPY
+sex::pclass	male::2	known_cabin	0	102	13	89	0.520
+sex::pclass	male::2	known_cabin	1	6	4	2	0.571
+			Overall Entropy	0.571
+	Information Gain	0.057
+
+PARENT_VARIABLE	PARENT_CLASS	VARIABLE	CLASS	TOTAL	SURVIVED	DIED	ENTROPY
+sex::pclass	male::3	SURVIVAL	ALL	347	47	300	0.572
+
+PARENT_VARIABLE	PARENT_CLASS	VARIABLE	CLASS	TOTAL	SURVIVED	DIED	ENTROPY
+sex::pclass	male::3	family	0	264	32	232	0.405
+sex::pclass	male::3	family	1	83	15	68	0.568
+			Overall Entropy	0.568
+	Information Gain	0.004
+
+PARENT_VARIABLE	PARENT_CLASS	VARIABLE	CLASS	TOTAL	SURVIVED	DIED	ENTROPY
+sex::pclass	male::3	under_5s	0	335	43	292	0.534
+sex::pclass	male::3	under_5s	1	12	4	8	0.566
+			Overall Entropy	0.566
+	Information Gain	0.007
+
+PARENT_VARIABLE	PARENT_CLASS	VARIABLE	CLASS	TOTAL	SURVIVED	DIED	ENTROPY
+sex::pclass	male::3	embarked	C	43	10	33	0.097
+sex::pclass	male::3	embarked	Q	39	3	36	0.141
+sex::pclass	male::3	embarked	S	265	34	231	0.563
+			Overall Entropy	0.563
+	Information Gain	0.009
+
+PARENT_VARIABLE	PARENT_CLASS	VARIABLE	CLASS	TOTAL	SURVIVED	DIED	ENTROPY
+sex::pclass	male::3	fare_range	cheap	343	47	296	0.570
+sex::pclass	male::3	fare_range	regular	4	0	4	0.570
+			Overall Entropy	0.570
+	Information Gain	0.002
+
+PARENT_VARIABLE	PARENT_CLASS	VARIABLE	CLASS	TOTAL	SURVIVED	DIED	ENTROPY
+sex::pclass	male::3	known_cabin	0	341	45	296	0.553
+sex::pclass	male::3	known_cabin	1	6	2	4	0.569
+			Overall Entropy	0.569
+	Information Gain	0.003
+
