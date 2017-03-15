@@ -36,9 +36,12 @@ object WikipediaRanking {
    *  Hint4: no need to search in the title :)
    */
   def occurrencesOfLang(lang: String, rdd: RDD[WikipediaArticle]): Int = {
-    val regex = ("""\b""" + lang + """\b""").r
-    rdd.filter(w => regex.findFirstIn(w.text).isDefined).count().toInt
-//    rdd.flatMap(w => w.text.split(" ")).filter(s => s.matches(lang)).count().toInt
+//    // this is using regex, which is more accurate
+//    val regex = ("""\b""" + lang + """\b""").r
+//    rdd.filter(w => regex.findFirstIn(w.text).isDefined).count().toInt
+
+    // this using split and contains
+    rdd.filter(w => w.text.split(" ").contains(lang)).count().toInt
   }
 
   /* (1) Use `occurrencesOfLang` to compute the ranking of the languages
@@ -58,14 +61,26 @@ object WikipediaRanking {
    * to the Wikipedia pages in which it occurs.
    */
   def makeIndex(langs: List[String], rdd: RDD[WikipediaArticle]): RDD[(String, Iterable[WikipediaArticle])] = {
-    val regexes = sc.broadcast(langs.map(l => (l -> ("""\b""" + l + """\b""").r)).toMap)
-    val plangs = sc.broadcast(langs)
-    rdd.map(s => (s, plangs.value.filter(l =>
-             regexes.value(l).findFirstIn(s.text).isDefined
-          )))
-       .filter(r => r._2.size > 0)
-       .flatMap(x => x._2.map(l => (l, x._1)))
-       .groupByKey()
+//    // this is using regex, which is more accurate
+//    val regexes = sc.broadcast(langs.map(l => (l -> ("""\b""" + l + """\b""").r)).toMap)
+//    val plangs = sc.broadcast(langs)
+//    rdd.map(s => (s, plangs.value.filter(l =>
+//             regexes.value(l).findFirstIn(s.text).isDefined
+//          )))
+//       .filter(r => r._2.size > 0)
+//       .flatMap(x => x._2.map(l => (l, x._1)))
+//       .groupByKey()
+//
+//
+    // this using split and contains
+    rdd.map(w => {
+          val words = w.text.split(" ")
+          (w, langs.filter(l => words.contains(l)))
+        })
+      .filter(r => r._2.size > 0)
+      .flatMap(x => x._2.map(l => (l, x._1)))
+      .groupByKey()
+
   }
 
   /* (2) Compute the language ranking again, but now using the inverted index. Can you notice
@@ -90,17 +105,30 @@ object WikipediaRanking {
    *   several seconds.
    */
   def rankLangsReduceByKey(langs: List[String], rdd: RDD[WikipediaArticle]): List[(String, Int)] = {
-    val regexes = sc.broadcast(langs.map(l => (l -> ("""\b""" + l + """\b""").r)).toMap)
-    val plangs = sc.broadcast(langs)
-    rdd.map(s => (s, plangs.value.filter(l =>
-            regexes.value(l).findFirstIn(s.text).isDefined
-          )))
-        .filter(r => r._2.size > 0)
-        .flatMap(x => x._2.map(l => (l, 1)))
-        .reduceByKey(_+_)
-        .collect()
-        .toList
-        .sortWith((x, y) => x._2 > y._2)
+//    // this is using regex, which is more accurate
+//    val regexes = sc.broadcast(langs.map(l => (l -> ("""\b""" + l + """\b""").r)).toMap)
+//    val plangs = sc.broadcast(langs)
+//    rdd.map(s => (s, plangs.value.filter(l =>
+//            regexes.value(l).findFirstIn(s.text).isDefined
+//          )))
+//        .filter(r => r._2.size > 0)
+//        .flatMap(x => x._2.map(l => (l, 1)))
+//        .reduceByKey(_+_)
+//        .collect()
+//        .toList
+//        .sortWith((x, y) => x._2 > y._2)
+
+    // this using split and contains
+    rdd.map(w => {
+          val words = w.text.split(" ")
+          (w, langs.filter(l => words.contains(l)))
+        })
+      .filter(r => r._2.size > 0)
+      .flatMap(x => x._2.map(l => (l, 1)))
+      .reduceByKey(_+_)
+      .collect()
+      .toList
+      .sortWith((x, y) => x._2 > y._2)
   }
 
   def main(args: Array[String]) {
