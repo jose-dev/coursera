@@ -38,6 +38,7 @@ object WikipediaRanking {
   def occurrencesOfLang(lang: String, rdd: RDD[WikipediaArticle]): Int = {
     val regex = ("""\b""" + lang + """\b""").r
     rdd.filter(w => regex.findFirstIn(w.text).isDefined).count().toInt
+//    rdd.flatMap(w => w.text.split(" ")).filter(s => s.matches(lang)).count().toInt
   }
 
   /* (1) Use `occurrencesOfLang` to compute the ranking of the languages
@@ -117,6 +118,9 @@ object WikipediaRanking {
     val langsRanked3: List[(String, Int)] = timed("Part 3: ranking using reduceByKey", rankLangsReduceByKey(langs, wikiRdd))
 
     /* Output the speed of each ranking */
+//    println(langsRanked)
+//    println(langsRanked2)
+//    println(langsRanked3)
     println(timing)
     sc.stop()
   }
