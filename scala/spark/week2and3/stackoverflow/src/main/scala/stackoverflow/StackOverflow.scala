@@ -108,7 +108,11 @@ class StackOverflow extends Serializable {
       highScore
     }
 
-    ???
+    grouped.map(f => {
+      val question = f._2.head._1
+      val answers = f._2.map(f => f._2)
+      (question, answerHighScore(answers.toArray))
+    })
   }
 
 

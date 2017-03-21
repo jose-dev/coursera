@@ -165,4 +165,38 @@ class StackOverflowSuite extends FunSuite with BeforeAndAfterAll {
     assert(result.count() == 1)
     assert(res(0)._2.size == 2)
   }
+
+
+  test("'scoredPostings' get highest score for question") {
+    val question = Posting(postingType = 1,
+                          id = 101,
+                          acceptedAnswer = None,
+                          parentId = None,
+                          score = 0,
+                          tags = Some("perl"))
+    val answer1 = Posting(postingType = 2,
+                        id = 201,
+                        acceptedAnswer = None,
+                        parentId = Some(101),
+                        score = 0,
+                        tags = Some("perl"))
+    val answer2 = Posting(postingType = 2,
+                        id = 202,
+                        acceptedAnswer = None,
+                        parentId = Some(101),
+                        score = 10,
+                        tags = Some("perl"))
+
+    val rdd = sc.parallelize(List(question, answer1, answer2))
+    val result = scoredPostings(groupedPostings(rdd))
+    val res = result.take(1)
+    assert(result.count() == 1)
+    assert(res(0)._1.postingType == 1)
+    assert(res(0)._1.id == 101)
+    assert(res(0)._1.acceptedAnswer.isEmpty)
+    assert(res(0)._1.parentId.isEmpty)
+    assert(res(0)._1.score == 0)
+    assert(res(0)._1.tags.get == "perl")
+    assert(res(0)._2 == 10)
+  }
 }
