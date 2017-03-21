@@ -233,4 +233,37 @@ class StackOverflowSuite extends FunSuite with BeforeAndAfterAll {
     assert(res(0)._1 == 500000)
     assert(res(0)._2 == 10)
   }
+
+
+  test("'calculateNewMeans' cluster into one group") {
+    val vectors = List((1000, 90), (1000, 80))
+    val centroids = List((1000, 100), (1000, 10)).toArray
+
+    val rdd = sc.parallelize(vectors)
+    val result = calculateNewMeans(rdd, centroids)
+    assert(result.length == 1)
+    assert(result(0)._1 == 1000)
+    assert(result(0)._2 == 85)
+  }
+
+
+  test("'calculateNewMeans' cluster into two groups") {
+    val vectors = List((1000, 90), (1000, 80), (2000, 20), (2000,30))
+    val centroids = List((1000, 100), (2000, 10)).toArray
+
+    val rdd = sc.parallelize(vectors)
+    val result = calculateNewMeans(rdd, centroids)
+    assert(result.length == 2)
+    result.foreach(f => {
+      if (f._1 == 1000) {
+        assert(f._2 == 85)
+      }
+      else if (f._1 == 2000) {
+        assert(f._2 == 25)
+      }
+      else {
+        assert(1 == 0)
+      }
+    })
+  }
 }

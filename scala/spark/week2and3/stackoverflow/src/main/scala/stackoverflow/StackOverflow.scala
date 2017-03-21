@@ -179,6 +179,16 @@ class StackOverflow extends Serializable {
   }
 
 
+
+  /** cluster and calculate new means  */
+  def calculateNewMeans(rdd: RDD[(Int, Int)], means: Array[(Int, Int)]): Array[(Int, Int)] = {
+    rdd.map(v => (findClosest(v, means), v))
+      .groupByKey()
+      .map(p => averageVectors(p._2))
+      .collect()
+  }
+
+
   //
   //
   //  Kmeans method:
@@ -187,9 +197,7 @@ class StackOverflow extends Serializable {
 
   /** Main kmeans computation */
   @tailrec final def kmeans(means: Array[(Int, Int)], vectors: RDD[(Int, Int)], iter: Int = 1, debug: Boolean = false): Array[(Int, Int)] = {
-    val newMeans = means.clone() // you need to compute newMeans
-
-    // TODO: Fill in the newMeans array
+    val newMeans = calculateNewMeans(vectors, means)
     val distance = euclideanDistance(means, newMeans)
 
     if (debug) {
