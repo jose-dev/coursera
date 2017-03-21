@@ -9,6 +9,8 @@ import org.apache.spark.SparkContext._
 import org.apache.spark.rdd.RDD
 import java.io.File
 
+import StackOverflow._
+
 @RunWith(classOf[JUnitRunner])
 class StackOverflowSuite extends FunSuite with BeforeAndAfterAll {
 
@@ -35,4 +37,80 @@ class StackOverflowSuite extends FunSuite with BeforeAndAfterAll {
   }
 
 
+  test("'rawPostings' should parse csv line into Posting objects with Question") {
+    val rdd = sc.parallelize(List("1,101,,,0,perl"))
+    val res = rawPostings(rdd).take(1)
+    assert(res(0).postingType == 1)
+    assert(res(0).id == 101)
+    assert(res(0).acceptedAnswer.getOrElse(0) == 0)
+    assert(res(0).parentId == None)
+    assert(res(0).score == 0)
+    assert(res(0).tags.get == "perl")
+  }
+
+
+  test("'rawPostings' should parse csv line into Posting objects with Answer") {
+    val rdd = sc.parallelize(List("2,201,201,101,0,perl"))
+    val res = rawPostings(rdd).take(1)
+    assert(res(0).postingType == 2)
+    assert(res(0).id == 201)
+    assert(res(0).acceptedAnswer.get == 201)
+    assert(res(0).parentId.get == 101)
+    assert(res(0).score == 0)
+    assert(res(0).tags.get == "perl")
+  }
+
+
+  test("'extractPostingsByType' extract Question Postings") {
+    val question = Posting(postingType = 1,
+                          id =             101,
+                          acceptedAnswer = None,
+                          parentId =       None,
+                          score =          0,
+                          tags =           Some("perl"))
+    val answer = Posting(postingType = 2,
+                        id =             201,
+                        acceptedAnswer = None,
+                        parentId =       Some(102),
+                        score =          0,
+                        tags =           Some("scala"))
+
+    val rdd = sc.parallelize(List(question, answer))
+    val result = extractPostingsByType(rdd, 1)
+    val res = result.take(1)
+    assert(result.count() == 1)
+    assert(res(0)._2.postingType == 1)
+    assert(res(0)._2.id == 101)
+    assert(res(0)._2.acceptedAnswer.isEmpty)
+    assert(res(0)._2.parentId.isEmpty)
+    assert(res(0)._2.score == 0)
+    assert(res(0)._2.tags.get == "perl")
+  }
+
+
+  test("'extractPostingsByType' extract Answer Postings") {
+    val question = Posting(postingType = 1,
+                          id =             101,
+                          acceptedAnswer = None,
+                          parentId =       None,
+                          score =          0,
+                          tags =           Some("perl"))
+    val answer = Posting(postingType = 2,
+                        id =             201,
+                        acceptedAnswer = None,
+                        parentId =       Some(102),
+                        score =          0,
+                        tags =           Some("scala"))
+
+    val rdd = sc.parallelize(List(question, answer))
+    val result = extractPostingsByType(rdd, 2)
+    val res = result.take(1)
+    assert(result.count() == 1)
+    assert(res(0)._2.postingType == 2)
+    assert(res(0)._2.id == 201)
+    assert(res(0)._2.acceptedAnswer.isEmpty)
+    assert(res(0)._2.parentId.get == 102)
+    assert(res(0)._2.score == 0)
+    assert(res(0)._2.tags.get == "scala")
+  }
 }
