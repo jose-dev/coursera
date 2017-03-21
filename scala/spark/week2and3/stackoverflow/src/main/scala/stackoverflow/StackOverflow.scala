@@ -164,13 +164,14 @@ class StackOverflow extends Serializable {
       res
     }
 
+    val unique = vectors.distinct()
     val res =
       if (langSpread < 500)
         // sample the space regardless of the language
-        vectors.takeSample(false, kmeansKernels, 42)
+        unique.takeSample(false, kmeansKernels, 42)
       else
         // sample the space uniformly from each language partition
-        vectors.groupByKey.flatMap({
+        unique.groupByKey.flatMap({
           case (lang, vectors) => reservoirSampling(lang, vectors.toIterator, perLang).map((lang, _))
         }).collect()
 
