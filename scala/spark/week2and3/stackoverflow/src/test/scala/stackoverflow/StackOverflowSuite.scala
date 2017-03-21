@@ -113,4 +113,56 @@ class StackOverflowSuite extends FunSuite with BeforeAndAfterAll {
     assert(res(0)._2.score == 0)
     assert(res(0)._2.tags.get == "scala")
   }
+
+
+  test("'groupedPostings' with one question and one answer") {
+    val question = Posting(postingType = 1,
+                          id = 101,
+                          acceptedAnswer = None,
+                          parentId = None,
+                          score = 0,
+                          tags = Some("perl"))
+    val answer = Posting(postingType = 2,
+                        id = 201,
+                        acceptedAnswer = None,
+                        parentId = Some(101),
+                        score = 0,
+                        tags = Some("perl"))
+
+    val rdd = sc.parallelize(List(question, answer))
+    val result = groupedPostings(rdd)
+    val res = result.take(1)
+    assert(result.count() == 1)
+    assert(res(0)._2.size == 1)
+    assert(res(0)._2.head._1.id == 101)
+    assert(res(0)._2.head._2.id == 201)
+  }
+
+
+  test("'groupedPostings' with one question and two answers") {
+    val question = Posting(postingType = 1,
+                          id = 101,
+                          acceptedAnswer = None,
+                          parentId = None,
+                          score = 0,
+                          tags = Some("perl"))
+    val answer1 = Posting(postingType = 2,
+                        id = 201,
+                        acceptedAnswer = None,
+                        parentId = Some(101),
+                        score = 0,
+                        tags = Some("perl"))
+    val answer2 = Posting(postingType = 2,
+                        id = 202,
+                        acceptedAnswer = None,
+                        parentId = Some(101),
+                        score = 0,
+                        tags = Some("perl"))
+
+    val rdd = sc.parallelize(List(question, answer1, answer2))
+    val result = groupedPostings(rdd)
+    val res = result.take(1)
+    assert(result.count() == 1)
+    assert(res(0)._2.size == 2)
+  }
 }
