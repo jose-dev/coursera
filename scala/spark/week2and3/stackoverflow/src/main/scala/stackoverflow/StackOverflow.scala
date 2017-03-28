@@ -1,9 +1,9 @@
 package stackoverflow
 
-import org.apache.spark.SparkConf
-import org.apache.spark.SparkContext
+import org.apache.spark.{SparkConf, SparkContext}
 import org.apache.spark.SparkContext._
 import org.apache.spark.rdd.RDD
+
 import annotation.tailrec
 import scala.reflect.ClassTag
 
@@ -21,15 +21,36 @@ object StackOverflow extends StackOverflow {
   def main(args: Array[String]): Unit = {
 
     val lines   = sc.textFile("src/main/resources/stackoverflow/stackoverflow.csv")
-    val raw     = rawPostings(lines)
-    val grouped = groupedPostings(raw)
-    val scored  = scoredPostings(grouped)
-    val vectors = vectorPostings(scored)
-//    assert(vectors.count() == 2121822, "Incorrect number of vectors: " + vectors.count())
+    val raw     = rawPostings(lines).cache()
+    val grouped = groupedPostings(raw).cache()
+    val scored  = scoredPostings(grouped).sample(true, 0.1, 0)
+    val vectors = vectorPostings(scored).cache()
+    //assert(vectors.count() == 2121822, "Incorrect number of vectors: " + vectors.count())
 
-    val means   = kmeans(sampleVectors(vectors), vectors, debug = true)
-    val results = clusterResults(means, vectors)
-    printResults(results)
+    val junk = sampleVectors(vectors)
+    println("number of initial seeds: " + junk.length)
+    println("initial seed: " + junk.deep.mkString("\n"))
+//    print(junk)
+//
+//    val point = (350000,100)
+//    val closest = findClosest(point, junk)
+//    println("closest index is: " + closest)
+//    println("closest mean is: " + junk(closest))
+
+    val means   = kmeans(junk, vectors, debug = true)
+    //val means   = kmeans(sampleVectors(vectors), vectors, debug = true)
+    println("final centroids: " + means.deep.mkString("\n"))
+
+    val closest = vectors.map(p => (findClosest(p, means), p))
+    val closestGrouped = closest.groupByKey()
+
+    println("closest: " + closestGrouped.take(2).deep.mkString("\n"))
+
+
+
+
+    //    val results = clusterResults(means, vectors)
+//    printResults(results)
   }
 }
 
@@ -285,6 +306,9 @@ class StackOverflow extends Serializable {
   }
 
 
+  def getClusterSummary(vs: Array[(Int, Int)]): Map[Int, Array[(Int, Int)]] = {
+    vs.map(f => (f._1 / langSpread, f._2)).groupBy(f => f._1)
+  }
 
 
   //
@@ -297,6 +321,8 @@ class StackOverflow extends Serializable {
     val closestGrouped = closest.groupByKey()
 
     val median = closestGrouped.mapValues { vs =>
+      val summary = vs.map(f => (f._1 / langSpread, f._2)).groupBy(f => f._1)
+
       val langLabel: String   = ??? // most common language in the cluster
       val langPercent: Double = ??? // percent of the questions in the most common language
       val clusterSize: Int    = ???

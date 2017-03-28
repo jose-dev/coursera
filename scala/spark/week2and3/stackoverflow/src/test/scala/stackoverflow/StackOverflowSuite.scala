@@ -266,4 +266,26 @@ class StackOverflowSuite extends FunSuite with BeforeAndAfterAll {
       }
     })
   }
+
+
+
+
+  test("'getClusterSummary' summaring cluster info") {
+    val input = Array((50000, 10), (50000, 20), (100000, 10))
+
+    val result = getClusterSummary(input)
+
+    println(result)
+
+    result.map(f => println("key: " + f._1 + " and array size: " + f._2.size))
+
+//    val res = result.take(1)
+//    assert(result.count() == 1)
+//    assert(res(0)._2.postingType == 2)
+//    assert(res(0)._2.id == 201)
+//    assert(res(0)._2.acceptedAnswer.isEmpty)
+//    assert(res(0)._2.parentId.get == 102)
+//    assert(res(0)._2.score == 0)
+//    assert(res(0)._2.tags.get == "Scala")
+  }
 }
